@@ -58,7 +58,7 @@ if has("gui_mac") || has("gui_macvim")
 endif
 
 " Zen Coding config
-let g:user_zen_expandabbr_key = '<Tab>'
+let g:user_zen_expandabbr_key = '<C-e>'
 let g:use_zen_complete_tag = 1
 
 " Better indentation
