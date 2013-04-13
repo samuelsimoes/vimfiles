@@ -3,6 +3,8 @@ set encoding=utf-8
 " Necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
+inoremap <esc> NO ESCAPE FOR YOU
+
 " Trocar entre buffers
 map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
