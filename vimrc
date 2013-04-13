@@ -41,3 +41,8 @@ filetype plugin on
 setlocal autoindent
 " Limpar espaços caso a linha fique vazia
 setlocal smarttab
+
+" Configurações do MVIM
+if has("gui_mac") || has("gui_macvim")
+  source ~/.vim/macvim.vim
+endif
