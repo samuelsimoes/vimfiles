@@ -74,3 +74,6 @@ let g:use_zen_complete_tag = 1
 " Better indentation
 vnoremap < <gv
 vnoremap > >gv
+
+" Clear search hightlights when space is pressed
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
