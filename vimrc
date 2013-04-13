@@ -29,6 +29,10 @@ set hlsearch
 " Sem quebra automática de linha
 set nowrap
 
+" Store temporary files in a central spot
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
 " Statusline setup
 set statusline=%f\  " Filename
 set statusline+=%c, " Cursor Column
@@ -50,3 +54,7 @@ setlocal smarttab
 if has("gui_mac") || has("gui_macvim")
   source ~/.vim/macvim.vim
 endif
+
+" Zen Coding config
+let g:user_zen_expandabbr_key = '<Tab>'
+let g:use_zen_complete_tag = 1
