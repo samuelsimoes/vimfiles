@@ -4,6 +4,9 @@ filetype off
 " Changing default leader key
 let mapleader=","
 
+" Theme
+colorscheme jellybeans
+
 " Set vim-specific functions available, breaking compatibility with vi
 set nocompatible
 
