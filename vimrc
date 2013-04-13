@@ -1,3 +1,5 @@
+set encoding=utf-8
+
 " Necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
@@ -16,6 +18,8 @@ set number
 " Syntax highlighting options
 syntax on
 set t_Co=256
+
+set laststatus=2
 
 " Inicia a busca ao digitar
 set incsearch
