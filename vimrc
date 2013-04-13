@@ -56,9 +56,9 @@ call pathogen#incubate()
 filetype plugin on
 
 " Indentação automática ao pular de linha
-setlocal autoindent
+set autoindent
 " Limpar espaços caso a linha fique vazia
-setlocal smarttab
+set smarttab
 
 " Configurações do MVIM
 if has("gui_mac") || has("gui_macvim")
