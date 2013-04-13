@@ -21,6 +21,8 @@ set t_Co=256
 
 set laststatus=2
 
+set tabstop=4
+
 " Inicia a busca ao digitar
 set incsearch
 " Highlight na busca
@@ -58,3 +60,7 @@ endif
 " Zen Coding config
 let g:user_zen_expandabbr_key = '<Tab>'
 let g:use_zen_complete_tag = 1
+
+" Better indentation
+vnoremap < <gv
+vnoremap > >gv
