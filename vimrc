@@ -77,3 +77,9 @@ vnoremap > >gv
 
 " Clear search hightlights when space is pressed
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+" Ctrl P open new tab with NERDTree
+let g:ctrlp_prompt_mappings = {
+\ 'AcceptSelection("e")': [],
+\ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
+\ }
