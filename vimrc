@@ -3,6 +3,14 @@ set encoding=utf-8
 " Necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
+" Trocar entre buffers
+map <C-l> <C-w><Right>
+map <C-h> <C-w><Left>
+
+" Ativar NERDtree
+map <C-n> <plug>NERDTreeTabsToggle<CR>
+let g:nerdtree_tabs_open_on_gui_startup=0
+
 " Changing default leader key
 let mapleader=","
 
