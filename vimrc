@@ -30,3 +30,11 @@ set statusline+=%{StatuslineTrailingSpaceWarning()}
 
 " Pathogen
 call pathogen#incubate()
+
+" File Type Plugin
+filetype plugin on
+
+" Indentação automática ao pular de linha
+setlocal autoindent
+" Limpar espaços caso a linha fique vazia
+setlocal smarttab
