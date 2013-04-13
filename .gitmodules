@@ -34,3 +34,6 @@
 [submodule "vim-rails"]
 	path = bundle/vim-rails
 	url = https://github.com/tpope/vim-rails
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets
