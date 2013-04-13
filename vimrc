@@ -28,4 +28,5 @@ set statusline+=%c, " Cursor Column
 set statusline+=%l/%L " Cursor Line/Total Lines
 set statusline+=%{StatuslineTrailingSpaceWarning()}
 
-
+" Pathogen
+call pathogen#incubate()
