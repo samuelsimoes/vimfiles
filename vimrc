@@ -3,11 +3,16 @@ set encoding=utf-8
 " Necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
+set list
+set listchars=tab:.\ ,trail:.
+
 inoremap <esc> NO ESCAPE FOR YOU
 
 " Trocar entre buffers
 map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
+map <C-k> <C-w><Up>
+map <C-j> <C-w><Down>
 
 " Ativar NERDtree
 map <C-n> <plug>NERDTreeTabsToggle<CR>
