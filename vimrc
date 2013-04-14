@@ -8,6 +8,9 @@ set listchars=tab:.\ ,trail:.
 
 inoremap <esc> NO ESCAPE FOR YOU
 
+" Limpar o cache do Crtl-P
+nnoremap <silent> <leader>T :ClearCtrlPCache<cr>\|:CtrlP<cr>
+
 " Trocar entre buffers
 map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
