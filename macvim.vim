@@ -3,3 +3,7 @@ set guioptions-=T
 
 " Disable all blinking
 set guicursor+=a:blinkon0
+
+" Remove scrollbars
+set guioptions-=L
+set guioptions-=r
