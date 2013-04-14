@@ -37,3 +37,6 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/inedit00/vim-surround
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
