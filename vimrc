@@ -91,3 +91,10 @@ let g:ctrlp_prompt_mappings = {
 \ 'AcceptSelection("e")': [],
 \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
 \ }
+
+" Space after colon in Sass files
+let g:user_zen_settings = {
+\  'sass' : {
+\    'filters' : 'fc',
+\  }
+\}
