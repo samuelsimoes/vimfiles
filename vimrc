@@ -40,6 +40,8 @@ set t_Co=256
 set laststatus=2
 
 set tabstop=4
+set shiftwidth=4
+set noexpandtab
 
 " Inicia a busca ao digitar
 set incsearch
