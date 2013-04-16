@@ -43,3 +43,6 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim
+[submodule "bundle/auto-compl-pop"]
+	path = bundle/auto-compl-pop
+	url = https://github.com/vim-scripts/AutoComplPop
