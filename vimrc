@@ -6,20 +6,24 @@ filetype off
 set list
 set listchars=tab:.\ ,trail:.
 
-inoremap <esc> NO ESCAPE FOR YOU
-
-" Limpar o cache do Crtl-P
+" Clear Crtl-P cache
 nnoremap <silent> <leader>T :ClearCtrlPCache<cr>\|:CtrlP<cr>
 
-" Trocar entre buffers
+" Change between buffers using movement keys
 map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
 map <C-k> <C-w><Up>
 map <C-j> <C-w><Down>
 
-" Ativar NERDtree
+" NERDtree configs
 map <C-n> <plug>NERDTreeTabsToggle<CR>
 let g:nerdtree_tabs_open_on_gui_startup=0
+
+" Ctrl P open new tab with NERDTree
+let g:ctrlp_prompt_mappings = {
+\ 'AcceptSelection("e")': [],
+\ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
+\ }
 
 " Changing default leader key
 let mapleader=","
@@ -39,16 +43,17 @@ set t_Co=256
 
 set laststatus=2
 
+" Indent configs
 set tabstop=4
 set shiftwidth=4
 set noexpandtab
+set autoindent
+set smarttab
 
-" Inicia a busca ao digitar
+" Search configs
 set incsearch
-" Highlight na busca
 set hlsearch
 
-" Sem quebra automática de linha
 set nowrap
 
 " Store temporary files in a central spot
@@ -67,19 +72,11 @@ call pathogen#incubate()
 " File Type Plugin
 filetype plugin on
 
-" Indentação automática ao pular de linha
-set autoindent
-" Limpar espaços caso a linha fique vazia
-set smarttab
 
-" Configurações do MVIM
+" GUI configs
 if has("gui_mac") || has("gui_macvim")
-  source ~/.vim/macvim.vim
+  source ~/.vim/gui.vim
 endif
-
-" Zen Coding config
-let g:user_zen_expandabbr_key = '<S-return>'
-let g:use_zen_complete_tag = 1
 
 " Better indentation
 vnoremap < <gv
@@ -88,11 +85,9 @@ vnoremap > >gv
 " Clear search hightlights when space is pressed
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
-" Ctrl P open new tab with NERDTree
-let g:ctrlp_prompt_mappings = {
-\ 'AcceptSelection("e")': [],
-\ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
-\ }
+" Zen Coding configs
+let g:user_zen_expandabbr_key = '<S-return>'
+let g:use_zen_complete_tag = 1
 
 " Space after colon in Sass files
 let g:user_zen_settings = {
