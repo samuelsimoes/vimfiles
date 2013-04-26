@@ -46,3 +46,6 @@
 [submodule "bundle/auto-compl-pop"]
 	path = bundle/auto-compl-pop
 	url = https://github.com/vim-scripts/AutoComplPop
+[submodule "bundle/changesPlugin"]
+	path = bundle/changesPlugin
+	url = https://github.com/chrisbra/changesPlugin
