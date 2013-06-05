@@ -4,7 +4,7 @@ set encoding=utf-8
 filetype off
 
 set list
-set listchars=tab:.\ ,trail:.
+set listchars=tab:\|\ ,trail:.
 
 " Clear Crtl-P cache
 nnoremap <silent> <leader>T :ClearCtrlPCache<cr>\|:CtrlP<cr>
@@ -95,3 +95,6 @@ let g:user_zen_settings = {
 \    'filters' : 'fc',
 \  }
 \}
+
+" Auto detect indent settings
+autocmd BufReadPost * :DetectIndent
