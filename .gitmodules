@@ -52,3 +52,6 @@
 [submodule "bundle/vim-trailing-whitespace"]
 	path = bundle/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace.git
+[submodule "bundle/detect-indent"]
+	path = bundle/detect-indent
+	url = https://github.com/vim-scripts/DetectIndent
