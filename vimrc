@@ -99,4 +99,11 @@ let g:user_zen_settings = {
 " Auto detect indent settings
 autocmd BufReadPost * :DetectIndent
 
+" JST filetype for EJS files
 au BufNewFile,BufRead *.ejs set filetype=jst
+
+" Smooth Scrolling mapping
+noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 3, 2)<CR>
+noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 3, 2)<CR>
+noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 3, 4)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 3, 4)<CR>
