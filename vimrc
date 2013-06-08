@@ -98,3 +98,5 @@ let g:user_zen_settings = {
 
 " Auto detect indent settings
 autocmd BufReadPost * :DetectIndent
+
+au BufNewFile,BufRead *.ejs set filetype=jst
