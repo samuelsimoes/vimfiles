@@ -1,5 +1,7 @@
 set encoding=utf-8
 
+let g:Powerline_symbols="fancy"
+
 " Necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
