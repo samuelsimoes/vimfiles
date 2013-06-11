@@ -100,6 +100,7 @@ let g:user_zen_settings = {
 
 " Auto detect indent settings
 autocmd BufReadPost * :DetectIndent
+autocmd BufWritePost * :FixWhitespace
 
 " JST filetype for EJS files
 au BufNewFile,BufRead *.ejs set filetype=jst
