@@ -2,8 +2,10 @@ set encoding=utf-8
 
 let g:Powerline_symbols="fancy"
 
-" Necessary on some Linux distros for pathogen to properly load bundles
-filetype off
+set switchbuf=useopen,usetab
+
+filetype plugin on
+let b:did_ftplugin = 1
 
 set list
 set listchars=tab:\|\ ,trail:.
@@ -51,6 +53,7 @@ set shiftwidth=4
 set noexpandtab
 set autoindent
 set smarttab
+set smartindent
 
 " Search configs
 set incsearch
@@ -114,3 +117,30 @@ noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 3, 4)<CR>
 " Vim Gist configs
 let g:gist_clip_command = 'pbcopy'
 let g:gist_detect_filetype = 1
+
+" Ruby blocks text objects
+runtime macros/matchit.vim
+
+set nocompatible
+if has("autocmd")
+  filetype indent plugin on
+endif
+
+" bind control-l to hashrocket
+imap <C-l> <Space>=><Space>
+
+nnoremap <C-tab>   :tabnext<CR>
+
+nnoremap <Leader>a :tabprevious<CR>
+nnoremap <Leader>d :tabnext<CR>
+
+map <Leader>t <Esc>:tabe<CR>
+map <Leader>w <Esc>:w<CR>
+map <Leader>x <Esc>:wq<CR>
+map <Leader>q <Esc>:q<CR>
+map <Leader>fq <Esc>:q!<CR>
+
+map <Leader>rk <Esc>:Rake<CR>
+
+au BufRead,BufNewFile *_spec.rb     set filetype=rspec
+au BufRead,BufNewFile *_steps.rb     set filetype=rspec
