@@ -8,8 +8,6 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-filetype plugin indent on
-
 set list
 set listchars=tab:\|\ ,trail:.
 
@@ -49,3 +47,7 @@ set smarttab
 set smartindent
 
 source ~/.vim/extras.vim
+
+if has("autocmd")
+  filetype indent plugin on
+endif

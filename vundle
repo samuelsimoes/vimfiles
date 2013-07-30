@@ -13,3 +13,10 @@ Bundle 'tpope/vim-endwise'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'mattn/zencoding-vim'
+Bundle 'tpope/vim-endwise'
+Bundle 'zeis/vim-kolor'
+Bundle 'jiangmiao/auto-pairs'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle 'garbas/vim-snipmate'
+Bundle 'honza/vim-snippets'
