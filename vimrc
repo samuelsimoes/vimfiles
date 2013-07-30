@@ -8,6 +8,11 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
+filetype plugin indent on
+
+set list
+set listchars=tab:\|\ ,trail:.
+
 " Vundle Packages
 source ~/.vim/vundle
 source ~/.vim/keymap.vim
@@ -35,4 +40,12 @@ set hlsearch
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
-filetype plugin indent on
+" Indent configs
+set tabstop=4
+set shiftwidth=4
+set noexpandtab
+set autoindent
+set smarttab
+set smartindent
+
+source ~/.vim/extras.vim
