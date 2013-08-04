@@ -33,3 +33,6 @@ map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
 map <C-k> <C-w><Up>
 map <C-j> <C-w><Down>
+
+" Triggering EasyMotion with one dot
+let g:EasyMotion_leader_key = '.'

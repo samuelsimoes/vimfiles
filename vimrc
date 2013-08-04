@@ -27,6 +27,10 @@ set statusline=%f\  " Filename
 " Line Number
 set number
 
+" Syntax highlighting options
+syntax on
+set t_Co=256"
+
 " Always show the status line
 set laststatus=2
 
@@ -37,6 +41,9 @@ set hlsearch
 " Store temporary files in a central spot
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
+" Pay attention when the line has more then 80 characters
+set colorcolumn=80
 
 " Indent configs
 set tabstop=4
