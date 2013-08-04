@@ -1,5 +1,4 @@
-" set guifont=Monaco:h15
-set guifont=Monaco\ for\ Powerline:h15
+set guifont=Monaco:h14
 set guioptions-=T
 
 " Disable all blinking
