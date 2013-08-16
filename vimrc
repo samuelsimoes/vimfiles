@@ -45,6 +45,9 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 " Pay attention when the line has more then 80 characters
 set colorcolumn=80
 
+" For Gist plugin send the URL of generated Gist to clipboard in Mac
+let g:gist_clip_command = 'pbcopy'
+
 " Indent configs
 set tabstop=4
 set shiftwidth=4
