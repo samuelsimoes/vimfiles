@@ -19,7 +19,6 @@ Bundle 'Raimondi/delimitMate'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle 'garbas/vim-snipmate'
-Bundle 'honza/vim-snippets'
 Bundle 'evanmiller/nginx-vim-syntax'
 Bundle 'samuelsimoes/Jasmine-snippets-for-snipMate'
 Bundle 'kchmck/vim-coffee-script'
@@ -29,3 +28,4 @@ Bundle 'briancollins/vim-jst'
 Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
 Bundle 'samuelsimoes/MatchTag'
+Bundle 'samuelsimoes/vim-snippets'
