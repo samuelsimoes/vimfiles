@@ -19,7 +19,7 @@ nnoremap <Leader>a :tabprevious<CR>
 nnoremap <Leader>d :tabnext<CR>
 
 " Expanding Zen Coding using Shift + Enter
-let g:user_zen_expandabbr_key = "<S-return>"
+let g:user_emmet_expandabbr_key = "<S-return>"
 
 " Write, quit, open new tab and forque quit more easily
 map <Leader>t <Esc>:tabe<CR>
