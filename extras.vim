@@ -11,4 +11,10 @@ let NERDTreeWinSize=37
 let g:syntastic_javascript_checkers = ['jsl']
 
 let g:syntastic_mode_map = { 'mode': 'active',
-                                   \ 'passive_filetypes': ['html', 'cucumber'] }
+                                   \ 'passive_filetypes': [
+                                     \ 'html',
+                                     \ 'cucumber',
+                                     \ 'sass',
+                                     \ 'scss',
+                                     \ 'css'
+                                   \ ] }
