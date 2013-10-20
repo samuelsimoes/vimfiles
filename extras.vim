@@ -4,6 +4,9 @@ autocmd BufReadPost * :DetectIndent
 " On save fix whitespaces
 autocmd BufWritePost * :FixWhitespace
 
+" On save remove duplicate tabs
+autocmd BufWritePost * :CloseDupTabs
+
 " More larger NERDTree buffer
 let NERDTreeWinSize=37
 
