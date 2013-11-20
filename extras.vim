@@ -26,3 +26,6 @@ let g:syntastic_mode_map = { 'mode': 'active',
                                      \ 'scss',
                                      \ 'css'
                                    \ ] }
+
+" Ignoring in ctrl-p the vendor things
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|vendor|public/uploads|tmp/cache)$'
