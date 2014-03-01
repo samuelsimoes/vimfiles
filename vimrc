@@ -65,3 +65,8 @@ endif
 " Disable the fucking error bell
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
+
+" To resolve MacVim, Tmux and Clipboard problem
+if $TMUX == ''
+  set clipboard+=unnamed
+endif
