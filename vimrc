@@ -61,3 +61,7 @@ source ~/.vim/extras.vim
 if has("autocmd")
   filetype indent plugin on
 endif
+
+" Disable the fucking error bell
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
