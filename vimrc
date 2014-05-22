@@ -70,3 +70,5 @@ autocmd GUIEnter * set visualbell t_vb=
 if $TMUX == ''
   set clipboard+=unnamed
 endif
+
+runtime bundle/matchit/plugin/matchit.vim
