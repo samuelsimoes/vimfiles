@@ -2,7 +2,7 @@
 autocmd BufReadPost * :DetectIndent
 
 " On save fix whitespaces
-autocmd BufWritePost * :FixWhitespace
+autocmd BufWritePost * :%s/\s\+$//e
 
 " On save remove duplicate tabs
 autocmd BufWritePost * :CloseDupTabs
