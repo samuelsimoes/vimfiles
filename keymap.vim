@@ -6,6 +6,10 @@ inoremap <CR> <CR>x<BS>
 nnoremap o ox<BS>
 nnoremap O Ox<BS>
 
+" Insert new line without enter in insert mode
+nnoremap <Leader>o ox<BS><Esc>
+nnoremap <Leader>O Ox<BS><Esc>
+
 " Better indentation
 vnoremap < <gv
 vnoremap > >gv
