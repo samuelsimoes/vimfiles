@@ -1,6 +1,11 @@
 " Changing default leader key
 let mapleader=","
 
+" Dont remove the identation when leave insert mode
+inoremap <CR> <CR>x<BS>
+nnoremap o ox<BS>
+nnoremap O Ox<BS>
+
 " Better indentation
 vnoremap < <gv
 vnoremap > >gv
