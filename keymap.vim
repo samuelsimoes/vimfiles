@@ -27,8 +27,8 @@ imap <C-l> <Space>=><Space>
 nnoremap <Leader>a :tabprevious<CR>
 nnoremap <Leader>d :tabnext<CR>
 
-" Expanding Zen Coding using Shift + Enter
-let g:user_emmet_expandabbr_key = "<S-return>"
+" Expanding Emmet using Ctrl + E
+let g:user_emmet_expandabbr_key = "<C-e>"
 
 " Write, quit, open new tab and forque quit more easily
 map <Leader>t <Esc>:tabe<CR>
