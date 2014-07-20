@@ -3,20 +3,30 @@ set encoding=utf-8
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+"NeoBundle Scripts-----------------------------
+if has('vim_starting')
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
 
-Bundle 'gmarik/vundle'
+call neobundle#begin(expand('~/.vim/bundle'))
 
-set list
-set listchars=tab:\|\ ,trail:.
+" Let NeoBundle manage NeoBundle
+NeoBundleFetch 'Shougo/neobundle.vim'
 
-" Vundle Packages
-source ~/.vim/vundle
+" Packages
+source ~/.vim/neobundle.vim
+
+call neobundle#end()
+NeoBundleCheck
+"End NeoBundle Scripts-------------------------
+
 source ~/.vim/keymap.vim
 if has("gui_mac") || has("gui_macvim")
   source ~/.vim/gui.vim
 endif
+
+set list
+set listchars=tab:\|\ ,trail:.
 
 " Theme
 colorscheme jellybeans
