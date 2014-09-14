@@ -24,7 +24,8 @@ let g:syntastic_mode_map = { 'mode': 'active',
                                      \ 'cucumber',
                                      \ 'sass',
                                      \ 'scss',
-                                     \ 'css'
+                                     \ 'css',
+                                     \ 'haml'
                                    \ ] }
 
 " Ignoring in ctrl-p the vendor things
