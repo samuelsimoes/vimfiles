@@ -24,7 +24,7 @@ NeoBundle 'samuelsimoes/MatchTag'
 NeoBundle 'samuelsimoes/vim-snippets'
 NeoBundle 'mattn/emmet-vim', { 'rev' : '018a975' }
 NeoBundle 'scrooloose/syntastic'
-NeoBundle 'scrooloose/nerdcommenter'
+NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'sorribas/vim-close-duplicate-tabs'
 NeoBundle 'mortice/pbcopy.vim'
 NeoBundle 'tpope/vim-afterimage'
