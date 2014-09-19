@@ -1,7 +1,8 @@
 set encoding=utf-8
 
 set nocompatible
-filetype off
+filetype on
+filetype indent plugin on
 
 "NeoBundle Scripts-----------------------------
 if has('vim_starting')
@@ -68,10 +69,6 @@ set autoindent
 set smartindent
 
 source ~/.vim/extras.vim
-
-if has("autocmd")
-  filetype indent plugin on
-endif
 
 " Disable the fucking error bell
 set noerrorbells visualbell t_vb=
