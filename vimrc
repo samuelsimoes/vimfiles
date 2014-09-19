@@ -59,11 +59,11 @@ set colorcolumn=80
 let g:gist_clip_command = 'pbcopy'
 
 " Indent configs
-set tabstop=4
-set shiftwidth=4
-set noexpandtab
-set autoindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
 set smarttab
+set autoindent
 set smartindent
 
 source ~/.vim/extras.vim
