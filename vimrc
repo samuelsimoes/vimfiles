@@ -48,9 +48,10 @@ set laststatus=2
 set incsearch
 set hlsearch
 
-" Store temporary files in a central spot
-set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+" No backup files
+set nobackup
+set nowritebackup
+set noswapfile
 
 " Pay attention when the line has more then 80 characters
 set colorcolumn=80
