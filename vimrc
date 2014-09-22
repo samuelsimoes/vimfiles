@@ -4,7 +4,10 @@ set nocompatible
 filetype on
 filetype indent plugin on
 
-"NeoBundle Scripts-----------------------------
+let g:snipMate = {}
+let g:snipMate.scope_aliases = {}
+
+"NeoBundlnipMate = {} Scripts-----------------------------
 if has('vim_starting')
   set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif

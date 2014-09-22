@@ -10,6 +10,9 @@ autocmd BufWritePost * :CloseDupTabs
 " More larger NERDTree buffer
 let NERDTreeWinSize=37
 
+let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone'
+let g:snipMate.scope_aliases['html'] = 'html,bootstrap'
+
 " Syntastic Configs
 let g:syntastic_javascript_checkers = ['jsl']
 let g:syntastic_error_symbol='✗'
