@@ -38,6 +38,9 @@ colorscheme jellybeans
 " Statusline setup
 set statusline=%f\  " Filename
 
+" Line Number
+set number
+
 " Syntax highlighting options
 syntax on
 set t_Co=256"

@@ -64,11 +64,6 @@ let g:ctrlp_abbrev = {
 let g:ctrlp_extensions = ['funky']
 let g:ctrlp_funky_syntax_highlight = 1
 
-set relativenumber
-
-autocmd InsertEnter * silent! :set number
-autocmd InsertLeave,BufNewFile,VimEnter,BufAdd * silent! :set relativenumber
-
 let g:dash_map = {
     \ 'javascript' : []
     \ }
