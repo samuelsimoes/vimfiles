@@ -68,3 +68,7 @@ set relativenumber
 
 autocmd InsertEnter * silent! :set number
 autocmd InsertLeave,BufNewFile,VimEnter,BufAdd * silent! :set relativenumber
+
+let g:dash_map = {
+    \ 'javascript' : []
+    \ }
