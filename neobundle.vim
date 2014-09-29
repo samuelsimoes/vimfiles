@@ -13,8 +13,7 @@ NeoBundle 'garbas/vim-snipmate', { 'depends': ['MarcWeber/vim-addon-mw-utils', '
 NeoBundle 'honza/vim-snippets'
 NeoBundle 'nelstrom/vim-visual-star-search'
 NeoBundle 'briancollins/vim-jst'
-NeoBundle 'mattn/webapi-vim'
-NeoBundle 'mattn/gist-vim'
+NeoBundle 'mattn/gist-vim', { 'depends': 'mattn/webapi-vim' }
 NeoBundle 'samuelsimoes/MatchTag'
 NeoBundle 'mattn/emmet-vim', { 'rev' : '018a975' }
 NeoBundle 'scrooloose/syntastic'
