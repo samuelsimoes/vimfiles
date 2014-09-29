@@ -45,3 +45,6 @@ map <C-j> <C-w><Down>
 
 " Trigger EasyMotion with backslash
 let g:EasyMotion_leader_key = '\'
+
+" Copy filepath
+nnoremap <leader>f :!echo -n % \| pbcopy<cr>
