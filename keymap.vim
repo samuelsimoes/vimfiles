@@ -48,3 +48,7 @@ let g:EasyMotion_leader_key = '\'
 
 " Copy filepath
 nnoremap <leader>f :!echo -n % \| pbcopy<cr>
+
+" Copy and paste from external clipboard with C and P
+map C y:call system("pbcopy", getreg(""))<CR>
+map P :call setreg("d", system("pbpaste"))<CR>"dp
