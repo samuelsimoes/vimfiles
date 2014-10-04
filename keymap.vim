@@ -55,3 +55,5 @@ map P :call setreg("d", system("pbpaste"))<CR>"dp
 
 nnoremap <Leader>mr :CtrlPMRU<CR>
 nnoremap <Leader>fu :CtrlPFunky<CR>
+
+let g:vim_g_command = "G"
