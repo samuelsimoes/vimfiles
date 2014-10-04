@@ -37,12 +37,6 @@ map <Leader>x <Esc>:wq<CR>
 map <Leader>q <Esc>:q<CR>
 map <Leader>fq <Esc>:q!<CR>
 
-" Change between buffers using movement keys
-" map <C-l> <C-w><Right>
-" map <C-h> <C-w><Left>
-" map <C-k> <C-w><Up>
-" map <C-j> <C-w><Down>
-
 " Trigger EasyMotion with backslash
 let g:EasyMotion_leader_key = '\'
 
