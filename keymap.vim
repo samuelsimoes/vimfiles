@@ -51,3 +51,6 @@ nnoremap <Leader>mr :CtrlPMRU<CR>
 nnoremap <Leader>fu :CtrlPFunky<CR>
 
 let g:vim_g_command = "G"
+
+map ]q :cnext<CR>
+map [q :cprev<CR>
