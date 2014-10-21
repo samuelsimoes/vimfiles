@@ -67,3 +67,9 @@ let g:ctrlp_funky_syntax_highlight = 1
 let g:dash_map = {
     \ 'javascript' : []
     \ }
+
+let g:Powerline_symbols = 'unicode'
+let g:Powerline_dividers_override = ['', '', '', '']
+let g:Powerline_symbols_override = {
+    \ 'BRANCH': '⎇',
+    \ }
