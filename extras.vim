@@ -83,3 +83,6 @@ command! -bar -nargs=1 -bang -complete=file Rename :
   \   call delete(s:file) |
   \ endif |
   \ unlet s:file
+
+" Eliminating delays on exit the insert mode
+set timeoutlen=1000 ttimeoutlen=0
