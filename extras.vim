@@ -73,3 +73,13 @@ let g:Powerline_dividers_override = ['', '', '', '']
 let g:Powerline_symbols_override = {
     \ 'BRANCH': '⎇',
     \ }
+
+" Rename command
+command! -bar -nargs=1 -bang -complete=file Rename :
+  \ let s:file = expand('%:p') |
+  \ setlocal modified |
+  \ keepalt saveas<bang> <args> |
+  \ if s:file !=# expand('%:p') |
+  \   call delete(s:file) |
+  \ endif |
+  \ unlet s:file
