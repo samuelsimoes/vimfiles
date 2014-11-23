@@ -15,7 +15,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Open NerdTree with Ctrl+n
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeMirrorToggle<CR>
 
 " Clear search hightlights when space is pressed
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
@@ -40,8 +40,8 @@ map <Leader>fq <Esc>:q!<CR>
 " Trigger EasyMotion with backslash
 let g:EasyMotion_leader_key = '\'
 
-" Copy filepath
-nnoremap <leader>f :!echo -n % \| pbcopy<cr>
+" Find current file on NERDTree
+nnoremap <leader>f :NERDTreeTabsFind<CR>
 
 " Copy and paste from external clipboard with C and P
 map C y:call system("pbcopy", getreg(""))<CR>
