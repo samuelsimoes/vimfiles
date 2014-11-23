@@ -89,3 +89,6 @@ command! -bar -nargs=1 -bang -complete=file Rename :
 
 " Eliminating delays on exit the insert mode
 set timeoutlen=1000 ttimeoutlen=0
+
+" Shortcut to access the current buffered file folder
+cabbr <expr> %% expand('%:p:h')
