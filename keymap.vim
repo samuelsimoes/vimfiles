@@ -44,8 +44,8 @@ let g:EasyMotion_leader_key = '\'
 nnoremap <leader>f :NERDTreeTabsFind<CR>
 
 " Copy and paste from external clipboard with C and P
-map C y:call system("pbcopy", getreg(""))<CR>
-map P :call setreg("d", system("pbpaste"))<CR>"dp
+map <Leader>c y:call system("pbcopy", getreg(""))<CR>
+map <Leader>p :call setreg("d", system("pbpaste"))<CR>"dp
 
 nnoremap <Leader>mr :CtrlPMRU<CR>
 nnoremap <Leader>fu :CtrlPFunky<CR>
