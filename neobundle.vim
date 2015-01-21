@@ -1,3 +1,4 @@
+NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'tpope/vim-rails.git'
 NeoBundle 'Lokaltog/vim-easymotion'
