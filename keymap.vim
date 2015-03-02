@@ -54,3 +54,6 @@ let g:vim_g_command = "G"
 
 map ]q :cnext<CR>
 map [q :cprev<CR>
+
+let g:ycm_key_list_previous_completion = ['<Up>']
+let g:ycm_key_list_select_completion = ['<Down>', '<Enter>']
