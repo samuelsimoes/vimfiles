@@ -15,7 +15,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Open NerdTree with Ctrl+n
-map <C-n> :NERDTreeMirrorToggle<CR>
+nnoremap <C-n> :NERDTreeTabsToggle<CR>
 
 " Clear search hightlights when space is pressed
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
