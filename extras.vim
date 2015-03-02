@@ -71,11 +71,16 @@ let g:dash_map = {
     \ 'javascript' : []
     \ }
 
-let g:Powerline_symbols = 'unicode'
-let g:Powerline_dividers_override = ['', '', '', '']
-let g:Powerline_symbols_override = {
-    \ 'BRANCH': '⎇',
-    \ }
+" Always show the status line
+set laststatus=2
+
+"Format the status line
+set statusline=
+set statusline+=%<\                       " cut at start
+set statusline+=%-40f\                    " path
+set statusline+=%=%1*%y%*%*\              " file type
+set statusline+=%10((%l,%c)%)\            " line and column
+set statusline+=%P                        " percentage of file"
 
 " Rename command
 command! -bar -nargs=1 -bang -complete=file Rename :
