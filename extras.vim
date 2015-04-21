@@ -10,9 +10,6 @@ autocmd BufWritePost * :CloseDupTabs
 " More larger NERDTree buffer
 let NERDTreeWinSize=37
 
-" Select the current file on NERDTree on new buffer opening
-let g:nerdtree_tabs_autofind=1
-
 let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone'
 let g:snipMate.scope_aliases['html'] = 'html,bootstrap'
 
