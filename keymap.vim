@@ -60,3 +60,10 @@ let g:ycm_key_list_select_completion = ['<Down>']
 
 map <Leader>8 :call youcompleteme#EnableCursorMovedAutocommands()<CR>
 map <Leader>9 :call youcompleteme#DisableCursorMovedAutocommands()<CR>
+
+let g:ctrlp_prompt_mappings = {
+  \ 'PrtSelectMove("j")':   ['<c-n>', '<down>'],
+  \ 'PrtSelectMove("k")':   ['<c-p>', '<up>'],
+  \ 'PrtHistory(-1)':       ['<c-j>'],
+  \ 'PrtHistory(1)':        ['<c-k>']
+\ }
