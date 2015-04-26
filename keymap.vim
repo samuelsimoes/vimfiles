@@ -57,3 +57,6 @@ map [q :cprev<CR>
 
 let g:ycm_key_list_previous_completion = ['<Up>']
 let g:ycm_key_list_select_completion = ['<Down>']
+
+map <Leader>8 :call youcompleteme#EnableCursorMovedAutocommands()<CR>
+map <Leader>9 :call youcompleteme#DisableCursorMovedAutocommands()<CR>
