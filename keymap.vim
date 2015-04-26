@@ -67,3 +67,5 @@ let g:ctrlp_prompt_mappings = {
   \ 'PrtHistory(-1)':       ['<c-j>'],
   \ 'PrtHistory(1)':        ['<c-k>']
 \ }
+
+nnoremap * :keepjumps normal! mi*`i<CR>
