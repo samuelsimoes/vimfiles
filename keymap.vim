@@ -48,7 +48,6 @@ map <Leader>c y:call system("pbcopy", getreg(""))<CR>
 map <Leader>p :call setreg("d", system("pbpaste"))<CR>"dp
 
 nnoremap <Leader>mr :CtrlPMRU<CR>
-nnoremap <Leader>fu :CtrlPFunky<CR>
 
 let g:vim_g_command = "G"
 
