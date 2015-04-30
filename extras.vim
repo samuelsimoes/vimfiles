@@ -43,10 +43,6 @@ endif
 " Use ag in Ack
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
-let g:dash_map = {
-    \ 'javascript' : []
-    \ }
-
 " Always show the status line
 set laststatus=2
 
