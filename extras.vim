@@ -43,17 +43,6 @@ endif
 " Use ag in Ack
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
-let g:ctrlp_abbrev = {
-  \ 'gmode': 'i',
-  \ 'abbrevs': [
-    \ {
-      \ 'pattern': '^cdh',
-      \ 'expanded': '@cd %:h',
-      \ 'mode': 'pfz'
-    \ }
-  \ ]
-  \ }
-
 let g:dash_map = {
     \ 'javascript' : []
     \ }
