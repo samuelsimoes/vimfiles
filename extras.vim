@@ -94,6 +94,9 @@ let g:rails_projections = {
       \ "app/services/*.rb": {
       \   "command": "service"
       \ },
+      \ "app/serializers/*.rb": {
+      \   "command": "serializer"
+      \ },
       \ "app/workers/*.rb": {
       \   "command": "worker"
       \ },
