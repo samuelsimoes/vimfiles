@@ -1,3 +1,12 @@
+" To resolve MacVim, Tmux and Clipboard problem
+if $TMUX == ''
+  set clipboard+=unnamed
+endif
+
+" Disable the fucking error bell
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
+
 " Detect indent on open file
 autocmd BufReadPost * :DetectIndent
 
@@ -91,6 +100,12 @@ let g:rails_projections = {
       \ "app/policies/*_policy.rb": {
       \   "command": "policy"
       \ }}
+
+" For Gist plugin send the URL of generated Gist to clipboard in Mac
+let g:gist_clip_command = 'pbcopy'
+
+" Pay attention when the line has more then 80 characters
+set colorcolumn=80
 
 let g:ycm_filetype_specific_completion_to_disable = {
   \ 'javascript': 0,

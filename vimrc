@@ -24,16 +24,11 @@ call neobundle#end()
 NeoBundleCheck
 "End NeoBundle Scripts-------------------------
 
-source ~/.vim/keymap.vim
-
 set list
 set listchars=tab:\|\ ,trail:.
 
 " Theme
 colorscheme jellybeans
-
-" Statusline setup
-set statusline=%f\  " Filename
 
 " Line Number
 set number
@@ -41,9 +36,6 @@ set number
 " Syntax highlighting options
 syntax on
 set t_Co=256"
-
-" Always show the status line
-set laststatus=2
 
 " Search configs
 set incsearch
@@ -54,12 +46,6 @@ set nobackup
 set nowritebackup
 set noswapfile
 
-" Pay attention when the line has more then 80 characters
-set colorcolumn=80
-
-" For Gist plugin send the URL of generated Gist to clipboard in Mac
-let g:gist_clip_command = 'pbcopy'
-
 " Indent configs
 set tabstop=2
 set shiftwidth=2
@@ -68,15 +54,7 @@ set smarttab
 set autoindent
 set smartindent
 
+source ~/.vim/keymap.vim
 source ~/.vim/extras.vim
-
-" Disable the fucking error bell
-set noerrorbells visualbell t_vb=
-autocmd GUIEnter * set visualbell t_vb=
-
-" To resolve MacVim, Tmux and Clipboard problem
-if $TMUX == ''
-  set clipboard+=unnamed
-endif
 
 runtime bundle/matchit/plugin/matchit.vim
