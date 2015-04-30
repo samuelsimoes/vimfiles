@@ -29,4 +29,8 @@ NeoBundle 'rizzatti/dash.vim'
 NeoBundle 'christoomey/vim-tmux-navigator'
 NeoBundle 'szw/vim-g'
 NeoBundle 'jistr/vim-nerdtree-tabs'
-NeoBundle 'Valloric/YouCompleteMe'
+NeoBundle 'Valloric/YouCompleteMe', {
+\ 'build' : {
+\     'mac' : './install.sh',
+\    }
+\ }
