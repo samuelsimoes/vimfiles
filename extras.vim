@@ -14,10 +14,6 @@ let g:snipMate.scope_aliases['html'] = 'html,bootstrap'
 let g:syntastic_javascript_checkers = ['jsl']
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
-
-" Rubo command for check the Ruby style
-command Rubo :SyntasticCheck rubocop
-
 let g:syntastic_mode_map = { 'mode': 'active',
                                    \ 'passive_filetypes': [
                                      \ 'html',
