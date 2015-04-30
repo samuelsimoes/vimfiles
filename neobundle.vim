@@ -19,7 +19,6 @@ NeoBundle 'samuelsimoes/MatchTag'
 NeoBundle 'mattn/emmet-vim', { 'rev' : '018a975' }
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'tomtom/tcomment_vim'
-NeoBundle 'sorribas/vim-close-duplicate-tabs'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tmhedberg/matchit'
