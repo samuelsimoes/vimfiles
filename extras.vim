@@ -63,16 +63,6 @@ set statusline+=%=%1*%y%*%*\              " file type
 set statusline+=%10((%l,%c)%)\            " line and column
 set statusline+=%P                        " percentage of file"
 
-" Rename command
-command! -bar -nargs=1 -bang -complete=file Rename :
-  \ let s:file = expand('%:p') |
-  \ setlocal modified |
-  \ keepalt saveas<bang> <args> |
-  \ if s:file !=# expand('%:p') |
-  \   call delete(s:file) |
-  \ endif |
-  \ unlet s:file
-
 " Eliminating delays on exit the insert mode
 set timeoutlen=1000 ttimeoutlen=0
 
@@ -119,3 +109,6 @@ let g:ycm_cache_omnifunc = 0
 let g:ycm_complete_in_strings = 1
 let g:ycm_complete_in_comments = 1
 let g:ycm_collect_identifiers_from_comments_and_strings = 1
+
+" Rename file
+map <Leader>r :call Rename()<CR>

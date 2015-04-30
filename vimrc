@@ -54,6 +54,7 @@ set smarttab
 set autoindent
 set smartindent
 
+source ~/.vim/functions.vim
 source ~/.vim/keymap.vim
 source ~/.vim/extras.vim
 
