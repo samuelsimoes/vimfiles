@@ -25,9 +25,6 @@ NeoBundleCheck
 "End NeoBundle Scripts-------------------------
 
 source ~/.vim/keymap.vim
-if has("gui_mac") || has("gui_macvim")
-  source ~/.vim/gui.vim
-endif
 
 set list
 set listchars=tab:\|\ ,trail:.
