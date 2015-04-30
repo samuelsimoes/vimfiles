@@ -101,11 +101,7 @@ let g:ycm_filetype_specific_completion_to_disable = {
   \ 'ruby': 0,
   \ 'eruby': 0
 \ }
-
 let g:ycm_cache_omnifunc = 0
 let g:ycm_complete_in_strings = 1
 let g:ycm_complete_in_comments = 1
 let g:ycm_collect_identifiers_from_comments_and_strings = 1
-
-" Triggering the completion using YouCompleteMe
-imap <C-n> <C-X><C-U>

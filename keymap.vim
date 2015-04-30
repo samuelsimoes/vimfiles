@@ -68,3 +68,6 @@ let g:ctrlp_prompt_mappings = {
 \ }
 
 nnoremap * :keepjumps normal! mi*`i<CR>
+
+" Triggering the completion using YouCompleteMe
+imap <C-n> <C-X><C-U>
