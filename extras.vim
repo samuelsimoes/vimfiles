@@ -13,9 +13,6 @@ autocmd BufReadPost * :DetectIndent
 " On save fix whitespaces
 autocmd BufWritePost * :FixWhitespace
 
-" More larger NERDTree buffer
-let NERDTreeWinSize=37
-
 let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone'
 let g:snipMate.scope_aliases['html'] = 'html,bootstrap'
 
