@@ -46,6 +46,9 @@ if executable('ag')
   let g:ctrlp_use_caching = 0
 endif
 
+" ctrlp-py-matcher is x22 times faster than default CtrpP matcher written vimscript
+let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
+
 " Use ag in Ack
 let g:ackprg = 'ag --nogroup --nocolor --column'
 

@@ -32,3 +32,4 @@ NeoBundle 'Valloric/YouCompleteMe', {
 \     'mac' : './install.sh',
 \    }
 \ }
+NeoBundle 'FelikZ/ctrlp-py-matcher'
