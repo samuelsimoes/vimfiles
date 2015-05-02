@@ -112,3 +112,6 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 1
 
 " Rename file
 map <Leader>r :call Rename()<CR>
+
+" Use emacs-style tab completion when selecting files, etc
+set wildmode=longest,list
