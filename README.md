@@ -11,10 +11,10 @@ First of all, use all fingers and don't leave the keyboard home row.
 To leave visual mode avoid the `ESC` key, it requires a stressful movement. I personaly
 use `Ctrl-[`, it permits a movement without leave the home row.
 
-Don't use the arrows too, arrows totally are against the home row, so use the
-h,j,k,l to move.
+Don't use the arrows too, arrows are totally against the home row, so use the
+h,j,k,l keys to move.
 
-Eventually I use tabs, so, for a better tabs usage I have this leader key mappings.
+Eventually I use tabs, so, for a better tabs usage I have these leader key mappings.
 
 * `<leader>a` Previous Tab
 * `<leader>b` Next Tab
@@ -56,3 +56,10 @@ using the filename only mode. To toggle between modes use the `ctrl-d` with ctrl
 
 Protip 2: use the "most recently used" mode when you need the last opened files.
 On my mappings you can open the CtrlP on MRU mode using `<leader>mr`.
+
+###[gist-vim](https://github.com/mattn/gist-vim)
+Create Gists from your Vim. :heartbeat:
+
+###[vim-g](https://github.com/szw/vim-g)
+Tiny plugin that allows you to perform a quick Google search directly from Vim.
+It opens a new browser window with results.
