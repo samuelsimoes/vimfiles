@@ -63,3 +63,7 @@ Create Gists from your Vim. :heartbeat:
 ###[vim-g](https://github.com/szw/vim-g)
 Tiny plugin that allows you to perform a quick Google search directly from Vim.
 It opens a new browser window with results.
+
+###[vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
+Seriously, is like teleportation in your code!
+Activated on my Vimfiles with `\`.
