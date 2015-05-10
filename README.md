@@ -67,3 +67,5 @@ It opens a new browser window with results.
 ###[vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
 Seriously, is like teleportation in your code!
 Activated on my Vimfiles with `\`.
+
+And **[more](neobundle.vim)**.
