@@ -1,3 +1,4 @@
+NeoBundle 'kana/vim-textobj-user'
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'tpope/vim-rails.git'
