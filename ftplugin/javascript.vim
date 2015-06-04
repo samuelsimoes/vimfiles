@@ -8,6 +8,7 @@ call textobj#user#plugin('javascriptfunctions', {
 \ })
 
 function! JavascriptFunctionSelectI()
+  normal! j
   execute "?function"
   normal! 0f{%k$
   let tail_pos = getpos('.')
@@ -17,7 +18,7 @@ function! JavascriptFunctionSelectI()
 endfunction
 
 function! JavascriptFunctionSelectA()
-  normal! $
+  normal! j
   execute "?function"
   normal! 0
   let tail_pos = getpos('.')
