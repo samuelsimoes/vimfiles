@@ -67,7 +67,7 @@ set statusline+=%P                        " percentage of file"
 set timeoutlen=1000 ttimeoutlen=0
 
 " Shortcut to access the current buffered file folder
-cabbr <expr> %% expand('%:p:h')
+cabbr <expr> @ expand('%:p:h')
 
 let g:rails_projections = {
       \ "spec/factories/*.rb": {
