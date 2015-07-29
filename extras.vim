@@ -77,19 +77,22 @@ let g:rails_projections = {
       \  "affinity": "model"
       \ },
       \ "app/enumerations/*.rb": {
-      \   "command": "enum"
+      \   "command": "enum",
+      \   "template": "class %S < EnumerateIt::Base\nend"
       \ },
       \ "app/services/*.rb": {
       \   "command": "service"
       \ },
-      \ "app/serializers/*.rb": {
-      \   "command": "serializer"
+      \ "app/serializers/*_serializer.rb": {
+      \   "command": "serializer",
+      \   "template": "class %SSerializer < ActiveModel::Serializer\nend"
       \ },
       \ "app/workers/*.rb": {
       \   "command": "worker"
       \ },
       \ "app/policies/*_policy.rb": {
-      \   "command": "policy"
+      \   "command": "policy",
+      \   "template": "class %SPolicy\nend"
       \ }}
 
 " For Gist plugin send the URL of generated Gist to clipboard in Mac
