@@ -1,5 +1,6 @@
 " Changing default leader key
 let mapleader=","
+let maplocalleader='-'
 
 " Ctrl-l to hashrocket
 imap <C-l> <Space>=><Space>

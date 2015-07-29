@@ -34,3 +34,4 @@ NeoBundle 'Valloric/YouCompleteMe', {
 \    }
 \ }
 NeoBundle 'FelikZ/ctrlp-py-matcher'
+NeoBundle 'krisajenkins/vim-pipe'
