@@ -3,7 +3,12 @@ snippet rai
 snippet print
 	page.driver.save_screenshot('/tmp/screen.png', full: true)
 snippet! def
-	def ${1:method_name}
+	def ${1}
+	end
+snippet! r
+	return ${1}
+snippet defs
+	def self.${1}
 	end
 snippet! defi
 	def initialize(${1})
