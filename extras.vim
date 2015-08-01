@@ -11,7 +11,7 @@ autocmd GUIEnter * set visualbell t_vb=
 autocmd BufReadPost * :DetectIndent
 
 " On save fix whitespaces
-autocmd BufWritePost * :FixWhitespace
+autocmd BufWritePre * :FixWhitespace
 
 let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone'
 let g:snipMate.scope_aliases['html'] = 'html,bootstrap'
