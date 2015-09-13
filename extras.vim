@@ -79,14 +79,15 @@ let g:rails_projections = {
       \ },
       \ "app/enumerations/*.rb": {
       \   "command": "enum",
-      \   "template": "class %S < EnumerateIt::Base\nend"
+      \   "template": "class %S < EnumerateIt::Base\n  associate_values :\nend"
       \ },
       \ "app/services/*.rb": {
       \   "command": "service"
       \ },
       \ "app/serializers/*_serializer.rb": {
       \   "command": "serializer",
-      \   "template": "class %SSerializer < ActiveModel::Serializer\nend"
+      \   "template": "class %SSerializer < ActiveModel::Serializer\nend",
+      \  "affinity": "model"
       \ },
       \ "app/workers/*.rb": {
       \   "command": "worker"
