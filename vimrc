@@ -59,5 +59,6 @@ source ~/.vim/functions.vim
 source ~/.vim/leader.vim
 source ~/.vim/keymap.vim
 source ~/.vim/extras.vim
+source ~/.vim/gui.vim
 
 runtime bundle/matchit/plugin/matchit.vim
