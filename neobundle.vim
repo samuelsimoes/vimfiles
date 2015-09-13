@@ -27,7 +27,6 @@ NeoBundle 'tpope/vim-abolish'
 NeoBundle 'vim-scripts/JavaScript-Indent'
 NeoBundle 'christoomey/vim-tmux-navigator'
 NeoBundle 'szw/vim-g'
-NeoBundle 'jistr/vim-nerdtree-tabs'
 NeoBundle 'Valloric/YouCompleteMe', {
 \ 'build' : {
 \     'mac' : './install.sh',
