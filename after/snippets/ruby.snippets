@@ -7,9 +7,13 @@ snippet! def
 	end
 snippet! r
 	return ${1}
-snippet defs
+snippet! defs
 	def self.${1}
 	end
 snippet! defi
 	def initialize(${1})
+	end
+snippet! cla class .. end
+	class ${1:`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`}
+		${0}
 	end
