@@ -17,7 +17,10 @@ map <Leader>q <Esc>:q<CR>
 map <Leader>fq <Esc>:q!<CR>
 
 " Find current file on NERDTree
-nnoremap <leader>f :NERDTreeTabsFind<CR>
+nnoremap <leader>nf :NERDTreeTabsFind<CR>
+
+" Copy filepath
+nnoremap <leader>f :!echo -n % \| pbcopy<cr>
 
 " Copy and paste from external clipboard with C and P
 map <Leader>c y:call system("pbcopy", getreg(""))<CR>
