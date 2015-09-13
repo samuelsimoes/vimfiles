@@ -17,7 +17,7 @@ let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone'
 let g:snipMate.scope_aliases['html'] = 'html,bootstrap'
 
 " Syntastic Configs
-let g:syntastic_javascript_checkers = ['jsl']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
 let g:syntastic_mode_map = { 'mode': 'active',
