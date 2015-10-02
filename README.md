@@ -17,7 +17,7 @@ h,j,k,l keys to move.
 Eventually I use tabs, so, for a better tabs usage I have these leader key mappings.
 
 * `<leader>a` Previous Tab
-* `<leader>b` Next Tab
+* `<leader>d` Next Tab
 * `<leader>t` New Tab
 
 I like to write and quit files using leader key mappings, so:
