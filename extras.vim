@@ -83,7 +83,8 @@ let g:rails_projections = {
       \   "template": "class %S < EnumerateIt::Base\n  associate_values :\nend"
       \ },
       \ "app/services/*.rb": {
-      \   "command": "service"
+      \   "command": "service",
+      \   "template": "class %S\nend"
       \ },
       \ "app/serializers/*_serializer.rb": {
       \   "command": "serializer",
