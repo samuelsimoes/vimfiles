@@ -6,3 +6,5 @@ cab sftj setfiletype javascript
 cab pipe let b:vimpipe_command=
 cab hash s/:\([^ ]*\)\(\s*\)=>/\1:/g
 cab Master Gsplit master:
+" Shortcut to access the current buffered file folder
+cab <expr> @ expand('%:p:h')

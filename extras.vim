@@ -66,9 +66,6 @@ set statusline+=%10((%l,%c)%)\            " line and column"
 " Eliminating delays on exit the insert mode
 set timeoutlen=1000 ttimeoutlen=0
 
-" Shortcut to access the current buffered file folder
-cabbr <expr> @ expand('%:p:h')
-
 let g:rails_projections = {
       \ "spec/factories/*.rb": {
       \   "command": "factory",
