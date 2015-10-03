@@ -12,7 +12,6 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'garbas/vim-snipmate', { 'depends': ['MarcWeber/vim-addon-mw-utils', 'tomtom/tlib_vim'] }
-NeoBundle 'honza/vim-snippets'
 NeoBundle 'nelstrom/vim-visual-star-search'
 NeoBundle 'briancollins/vim-jst'
 NeoBundle 'mattn/gist-vim', { 'depends': 'mattn/webapi-vim' }
