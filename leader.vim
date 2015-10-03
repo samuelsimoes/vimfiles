@@ -30,3 +30,6 @@ nnoremap <Leader>mr :CtrlPMRU<CR>
 
 map <Leader>8 :call youcompleteme#EnableCursorMovedAutocommands()<CR>
 map <Leader>9 :call youcompleteme#DisableCursorMovedAutocommands()<CR>
+
+" Rename file
+map <Leader>r :call Rename()<CR>
