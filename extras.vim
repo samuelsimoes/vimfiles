@@ -15,6 +15,7 @@ autocmd BufWritePre * :FixWhitespace
 
 let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone'
 let g:snipMate.scope_aliases['html'] = 'html,bootstrap'
+let g:snipMate.scope_aliases['ruby'] = 'ruby,rails'
 
 " Syntastic Configs
 let g:syntastic_javascript_checkers = ['eslint']
