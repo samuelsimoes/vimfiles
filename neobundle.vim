@@ -1,35 +1,53 @@
-NeoBundle 'kana/vim-textobj-user'
-NeoBundle 'bronson/vim-trailing-whitespace'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'tpope/vim-rails.git'
-NeoBundle 'Lokaltog/vim-easymotion'
-NeoBundle 'DetectIndent'
-NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'mileszs/ack.vim'
+" Theme
 NeoBundle 'nanotech/jellybeans.vim'
-NeoBundle 'vim-ruby/vim-ruby'
-NeoBundle 'tpope/vim-endwise'
-NeoBundle 'Raimondi/delimitMate'
-NeoBundle 'garbas/vim-snipmate', { 'depends': ['MarcWeber/vim-addon-mw-utils', 'tomtom/tlib_vim'] }
-NeoBundle 'nelstrom/vim-visual-star-search'
-NeoBundle 'briancollins/vim-jst'
-NeoBundle 'mattn/gist-vim', { 'depends': 'mattn/webapi-vim' }
-NeoBundle 'samuelsimoes/MatchTag'
-NeoBundle 'mattn/emmet-vim', { 'rev' : '018a975' }
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'tomtom/tcomment_vim'
-NeoBundle 'mustache/vim-mustache-handlebars'
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'tmhedberg/matchit'
-NeoBundle 'tpope/vim-abolish'
-NeoBundle 'vim-scripts/JavaScript-Indent'
-NeoBundle 'christoomey/vim-tmux-navigator'
-NeoBundle 'szw/vim-g'
-NeoBundle 'Valloric/YouCompleteMe', {
-\ 'build' : {
-\     'mac' : './install.sh',
-\    }
-\ }
-NeoBundle 'FelikZ/ctrlp-py-matcher'
+
+" Git on Vim
+NeoBundle 'tpope/vim-fugitive'
+
+" Piping from Vim buffer
 NeoBundle 'krisajenkins/vim-pipe'
+
+" Rails and Buby
+NeoBundle 'tpope/vim-rails.git'
+NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'rhysd/vim-textobj-ruby'
+NeoBundle 'tpope/vim-endwise'
+
+" File searching
+NeoBundle 'mileszs/ack.vim'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'FelikZ/ctrlp-py-matcher' " speeds the ctrl-p on typing searching
+
+" Movement
+NeoBundle 'christoomey/vim-tmux-navigator'
+NeoBundle 'Lokaltog/vim-easymotion' " is like give to you the spiderman's powers
+NeoBundle 'nelstrom/vim-visual-star-search'
+
+" Syntax
+NeoBundle 'briancollins/vim-jst'
+NeoBundle 'mustache/vim-mustache-handlebars'
+
+" Syntax Checking
+NeoBundle 'scrooloose/syntastic'
+
+" Code editing
+NeoBundle 'Raimondi/delimitMate' " autocomplete pairs
+NeoBundle 'kana/vim-textobj-user'
+NeoBundle 'DetectIndent'
+NeoBundle 'bronson/vim-trailing-whitespace'
+NeoBundle 'vim-scripts/JavaScript-Indent'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'tpope/vim-abolish' " change word case
+NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'mattn/emmet-vim', { 'rev' : '018a975' }
+NeoBundle 'Valloric/YouCompleteMe', { 'build' : { 'mac' : './install.sh' } }
+
+" Snippets
+NeoBundle 'garbas/vim-snipmate', { 'depends': ['MarcWeber/vim-addon-mw-utils', 'tomtom/tlib_vim'] }
+
+" Make gists from Vim
+NeoBundle 'mattn/gist-vim', { 'depends': 'mattn/webapi-vim' }
+
+" Search on Google from Vim
+NeoBundle 'szw/vim-g'
