@@ -13,7 +13,7 @@ autocmd BufReadPost * :DetectIndent
 " On save fix whitespaces
 autocmd BufWritePre * :FixWhitespace
 
-let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone'
+let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone,react'
 let g:snipMate.scope_aliases['html'] = 'html,bootstrap'
 let g:snipMate.scope_aliases['ruby'] = 'ruby,rails'
 
