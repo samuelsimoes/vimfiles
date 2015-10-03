@@ -1,0 +1,20 @@
+snippet rc
+	<% ${0} %>
+snippet rce
+	<%= ${1} %>
+snippet end
+	<% end %>
+snippet if
+	<% if ${1} %>
+		${0}
+	<% end %>
+snippet ife
+	<% if ${1} %>
+		${2}
+	<% else %>
+		${0}
+	<% end %>
+snippet each
+	<% ${1}.each do |${2}| %>
+		${3}
+	<% end %>
