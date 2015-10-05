@@ -22,10 +22,6 @@ nnoremap <leader>nf :NERDTreeTabsFind<CR>
 " Copy filepath
 nnoremap <leader>f :!echo -n % \| pbcopy<cr>
 
-" Copy and paste from external clipboard with C and P
-map <Leader>c y:call system("pbcopy", getreg(""))<CR>
-map <Leader>p :call setreg("d", system("pbpaste"))<CR>"dp
-
 nnoremap <Leader>mr :CtrlPMRU<CR>
 
 map <Leader>8 :call youcompleteme#EnableCursorMovedAutocommands()<CR>

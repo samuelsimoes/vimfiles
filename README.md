@@ -27,12 +27,6 @@ I like to write and quit files using leader key mappings, so:
 * `<leader>q` Quite and quit
 * `<leader>fq` Force quite
 
-If you use Vim on a Mac OS terminal you have some useful copy/paste from external
-clipboard key mappings.
-
-* `<leader>c` Send to external clipboard the visual selected range.
-* `<leader>p` Paste on Vim the content from external clipboard (no need to set paste mode :smile:).
-
 I eventually also use splits and to move between then I use the follow mappings
 added from [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator).
 
