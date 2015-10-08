@@ -13,7 +13,7 @@ snippet! defs
 snippet! defi
 	def initialize(${1})
 	end
-snippet! cla class .. end
-	class ${1:`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`}
+snippet! cla
+	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`}
 		${0}
 	end
