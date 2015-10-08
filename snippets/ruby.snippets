@@ -2,18 +2,18 @@ snippet rai
 	raise ${1}.inspect
 snippet print
 	page.driver.save_screenshot('/tmp/screen.png', full: true)
-snippet! def
+snippet def
 	def ${1}
 	end
-snippet! r
+snippet r
 	return ${1}
-snippet! defs
+snippet defs
 	def self.${1}
 	end
-snippet! defi
+snippet defi
 	def initialize(${1})
 	end
-snippet! cla
+snippet cla
 	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`}
 		${0}
 	end
