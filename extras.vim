@@ -117,3 +117,18 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 1
 
 " Use emacs-style tab completion when selecting files, etc
 set wildmode=longest,list
+
+" Pasting from cmd/ctrl+v on terminal without hassle
+if &term =~ "xterm" || &term =~ "screen"
+  let &t_ti = &t_ti . "\e[?2004h"
+  let &t_te = "\e[?2004l" . &t_te
+  function XTermPasteBegin(ret)
+    set pastetoggle=<Esc>[201~
+    set paste
+    return a:ret
+  endfunction
+  map <expr> <Esc>[200~ XTermPasteBegin("i")
+  imap <expr> <Esc>[200~ XTermPasteBegin("")
+  cmap <Esc>[200~ <nop>
+  cmap <Esc>[201~ <nop>
+endif
