@@ -1,6 +1,8 @@
 snippet mct
 	create_table :${1} do |t|
-		t.${2:type}    ${3:column}
+		t.${2:type}    :${3:column}
+
+		t.timestamps
 	end
 snippet mac
 	add_column :${1:model}, :${2:column}, :${3:type}
