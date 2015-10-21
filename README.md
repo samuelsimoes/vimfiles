@@ -30,10 +30,10 @@ I like to write and quit files using leader key mappings, so:
 I eventually also use splits and to move between then I use the follow mappings
 added from [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator).
 
-* `<ctrl-h>` => Left
-* `<ctrl-j>` => Down
-* `<ctrl-k>` => Up
-* `<ctrl-l>` => Right
+* `<ctrl-h>` Left
+* `<ctrl-j>` Down
+* `<ctrl-k>` Up
+* `<ctrl-l>` Right
 
 ##Useful plugins
 
