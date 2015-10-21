@@ -1,7 +1,5 @@
-" To resolve MacVim, Tmux and Clipboard problem
-if $TMUX == ''
-  set clipboard+=unnamed
-endif
+" Sharing system clipboard
+set clipboard=unnamed
 
 " Disable the fucking error bell
 set noerrorbells visualbell t_vb=
