@@ -94,8 +94,12 @@ let g:rails_projections = {
       \   "template": "class %SPolicy\nend"
       \ }}
 
-" For Gist plugin send the URL of generated Gist to clipboard in Mac
-let g:gist_clip_command = 'pbcopy'
+" For Gist plugin send the URL of generated Gist to clipboard
+if system('uname')=~'Darwin'
+  let g:gist_clip_command = 'pbcopy'
+else
+  let g:gist_clip_command = 'clip'
+endif
 
 " Pay attention when the line has more then 80 characters
 set colorcolumn=80
