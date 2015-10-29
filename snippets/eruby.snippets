@@ -18,3 +18,27 @@ snippet each
 	<% ${1}.each do |${2}| %>
 		${3}
 	<% end %>
+snippet teach
+	<table>
+		<thead>
+			<tr>
+				<th>${1}</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<% if ${2:@iteratee}.each do |${3:item}| %>
+				<tr>
+					<td>
+						<%= $3 %>
+					</td>
+				</tr>
+			<% end.blank? %>
+				<tr>
+					<td>
+						${4}
+					</td>
+				</tr>
+			<% end %>
+		</tbody>
+	</table>
