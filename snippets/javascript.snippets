@@ -57,3 +57,9 @@ snippet switch
 		default:
 			${2}
 	}
+snippet cla
+	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} {
+	}
+snippet clae
+	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} extends ${2} {
+	}
