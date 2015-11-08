@@ -51,3 +51,7 @@ NeoBundle 'mattn/gist-vim', { 'depends': 'mattn/webapi-vim' }
 
 " Search on Google from Vim
 NeoBundle 'szw/vim-g'
+
+" Better buffer usage
+NeoBundle 'vim-scripts/BufOnly.vim'
+NeoBundle 'rbgrouleff/bclose.vim'
