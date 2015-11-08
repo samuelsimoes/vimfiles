@@ -5,16 +5,23 @@ let maplocalleader='-'
 " Ctrl-l to hashrocket
 imap <C-l> <Space>=><Space>
 
-" Changing tabs more easily
-nnoremap <Leader>a :tabprevious<CR>
-nnoremap <Leader>d :tabnext<CR>
+" Buffer usage
+map <Leader>a :bprevious<CR>
+map <Leader>d :bnext<CR>
+map <Leader>b :enew<CR>
+map <Leader>q :Bclose<CR>
+map <Leader>s :b #<CR>
+map <Leader>fq <Esc>:Bclose!<CR>
+
+" New tab
+map <Leader>t <Esc>:tabe<CR>
+
+" Close Window
+map <Leader>tq <Esc>:q<CR>
 
 " Write, quit, open new tab and forque quit more easily
-map <Leader>t <Esc>:tabe<CR>
 map <Leader>w <Esc>:w<CR>
 map <Leader>x <Esc>:wq<CR>
-map <Leader>q <Esc>:q<CR>
-map <Leader>fq <Esc>:q!<CR>
 
 " Find current file on NERDTree
 nnoremap <leader>nf :NERDTreeFind<CR>
