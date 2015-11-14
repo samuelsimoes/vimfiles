@@ -38,3 +38,5 @@ nnoremap * :keepjumps normal! mi*`i<CR>
 
 " Triggering the completion using YouCompleteMe
 imap <C-n> <C-X><C-U>
+
+noremap <leader>c y:call system("clip", getreg(""))<CR>

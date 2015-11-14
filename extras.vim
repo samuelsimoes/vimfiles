@@ -120,3 +120,6 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 1
 
 " Use emacs-style tab completion when selecting files, etc
 set wildmode=longest,list
+
+" Allows hide unsaved buffers
+set hidden
