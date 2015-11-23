@@ -11,6 +11,10 @@ autocmd BufReadPost * :DetectIndent
 " On save fix whitespaces
 autocmd BufWritePre * :FixWhitespace
 
+" Autosave on focus lost and Autoread!
+autocmd FocusLost * nested :wa
+set autoread
+
 " Allows unsaved hidden buffers
 set hidden
 
