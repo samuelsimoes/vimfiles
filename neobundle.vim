@@ -40,7 +40,7 @@ NeoBundle 'vim-scripts/JavaScript-Indent'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-abolish' " change word case
 NeoBundle 'tomtom/tcomment_vim'
-NeoBundle 'mattn/emmet-vim', { 'rev' : '018a975' }
+NeoBundle 'mattn/emmet-vim'
 NeoBundle 'Valloric/YouCompleteMe', { 'build' : { 'mac' : './install.sh' } }
 
 " Snippets
