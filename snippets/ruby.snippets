@@ -26,3 +26,10 @@ snippet claf
 		def initialize(${3})
 		end
 	end
+snippet test
+	require 'minitest/autorun'
+	class Test < MiniTest::Unit::TestCase
+	  def test_the_truth
+			assert_equal(true, true)
+	  end
+	end
