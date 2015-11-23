@@ -11,7 +11,7 @@ snippet! :f
 		${3}
 	}
 snippet! :cf
-	${1} () {
+	${1} (${2}) {
 		${3}
 	}
 snippet :po
@@ -63,3 +63,11 @@ snippet cla
 snippet clae
 	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} extends ${2} {
 	}
+snippet :c
+	constructor (${1}) {
+		${2}
+	}
+snippet s
+	super();
+snippet af
+	(${1}) => { ${2} }
