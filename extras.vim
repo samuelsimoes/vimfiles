@@ -130,3 +130,6 @@ set wildmode=longest,list
 
 " Allows hide unsaved buffers
 set hidden
+
+" Relative numbers to navigation
+set relativenumber
