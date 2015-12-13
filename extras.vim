@@ -12,7 +12,7 @@ autocmd BufReadPost * :DetectIndent
 autocmd BufWritePre * :FixWhitespace
 
 " Autosave on focus lost and Autoread!
-autocmd FocusLost * nested :wa
+autocmd FocusLost * nested silent! :wa
 set autoread
 
 " Allows unsaved hidden buffers
