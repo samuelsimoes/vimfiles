@@ -33,3 +33,9 @@ snippet test
 			assert_equal(true, true)
 	  end
 	end
+snippet begin
+	begin
+		${1}
+	rescue ${2:Exception => e}
+		${3}
+	end
