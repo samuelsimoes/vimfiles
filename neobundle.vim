@@ -16,7 +16,7 @@ NeoBundle 'tpope/vim-endwise'
 " File searching
 NeoBundle 'mileszs/ack.vim'
 NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'FelikZ/ctrlp-py-matcher' " speeds the ctrl-p on typing searching
 
 " Movement
