@@ -36,6 +36,7 @@ nnoremap <leader>f :!echo -n % \| pbcopy<cr>
 
 nnoremap <Leader>mr :CtrlPMRU<CR>
 nnoremap <Leader>mp :CtrlPBuffer<CR>
+nnoremap <Leader>mh :CtrlP <C-R>=expand('%:p:h')<CR><CR>
 
 map <Leader>8 :call youcompleteme#EnableCursorMovedAutocommands()<CR>
 map <Leader>9 :call youcompleteme#DisableCursorMovedAutocommands()<CR>
