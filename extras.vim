@@ -133,3 +133,6 @@ set hidden
 
 " Relative numbers to navigation
 set relativenumber
+
+" Show commands
+set showcmd
