@@ -18,7 +18,7 @@ set autoread
 " Allows unsaved hidden buffers
 set hidden
 
-let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone,react'
+let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone,react,jquery'
 let g:snipMate.scope_aliases['html'] = 'html,bootstrap'
 let g:snipMate.scope_aliases['ruby'] = 'ruby,rails'
 
