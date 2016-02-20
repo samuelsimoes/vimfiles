@@ -40,6 +40,37 @@ let g:syntastic_mode_map = { 'mode': 'active',
 " Ignoring in ctrl-p the vendor things
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|vendor|public/uploads|tmp/cache)$'
 
+let g:ctrlp_abbrev = {
+  \ 'gmode': 't',
+  \ 'abbrevs': [
+    \ {
+      \ 'pattern': ',cp',
+      \ 'expanded': 'components/',
+      \ 'mode': 'pfrz',
+    \ },
+    \ {
+      \ 'pattern': ',s',
+      \ 'expanded': 'stores/',
+      \ 'mode': 'pfrz',
+    \ },
+    \ {
+      \ 'pattern': ',m',
+      \ 'expanded': 'models/',
+      \ 'mode': 'pfrz',
+    \ },
+    \ {
+      \ 'pattern': ',v',
+      \ 'expanded': 'views/',
+      \ 'mode': 'pfrz',
+    \ },
+    \ {
+      \ 'pattern': ',ct',
+      \ 'expanded': 'controllers/',
+      \ 'mode': 'pfrz',
+    \ }
+    \ ]
+  \ }
+
 " ag
 " The Silver Searcher
 if executable('ag')
