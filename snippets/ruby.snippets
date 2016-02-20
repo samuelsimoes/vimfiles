@@ -39,3 +39,10 @@ snippet begin
 	rescue ${2:Exception => e}
 		${3}
 	end
+snippet case
+	case ${1:expression}
+	when ${2:condition1}
+		${3:return1}
+	else
+		${4:return2}
+	end
