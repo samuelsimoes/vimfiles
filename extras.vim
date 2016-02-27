@@ -90,6 +90,9 @@ let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 " Use ag in Ack
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
+" Preview on ack shouldn't create listed buffers
+let g:ack_mappings = { "go": ":.cc <bar> setlocal nobuflisted<CR><C-W>j" }
+
 " Always show the status line
 set laststatus=2
 
