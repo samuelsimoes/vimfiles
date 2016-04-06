@@ -49,3 +49,23 @@ function! JSXExtractPartial()
 endfunction
 
 nnoremap <Leader>je :call JSXExtractPartial()<CR>
+
+function! JSXEachAttributeInLine()
+  let l:previous_q_reg = @q
+  let l:line = getline(".")
+  let l:identation_length = len(matchstr(line, '^[\t|\ ]*'))
+
+  if &expandtab
+    let l:padding = repeat(' ', (identation_length + &shiftwidth))
+  else
+    let l:padding = repeat('\t', identation_length + 1)
+  endif
+
+  let @q = substitute(line, '\w*=', '\n' . padding . '&', 'g')
+
+  execute 'normal 0d$"qp'
+
+  let @q = previous_q_reg
+endfunction
+
+nnoremap <Leader>ji :call JSXEachAttributeInLine()<CR>
