@@ -13,6 +13,9 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'rhysd/vim-textobj-ruby'
 NeoBundle 'tpope/vim-endwise'
 
+" Elixir
+NeoBundle 'elixir-lang/vim-elixir'
+
 " File searching
 NeoBundle 'mileszs/ack.vim'
 NeoBundle 'scrooloose/nerdtree'
