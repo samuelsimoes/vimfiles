@@ -58,3 +58,5 @@ NeoBundle 'szw/vim-g'
 " Better buffer usage
 NeoBundle 'vim-scripts/BufOnly.vim'
 NeoBundle 'rbgrouleff/bclose.vim'
+
+NeoBundle 'vim-ctrlspace/vim-ctrlspace'
