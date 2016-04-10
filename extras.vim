@@ -44,13 +44,28 @@ let g:ctrlp_abbrev = {
   \ 'gmode': 't',
   \ 'abbrevs': [
     \ {
-      \ 'pattern': ',cp',
+      \ 'pattern': ',z',
+      \ 'expanded': 'serializers/',
+      \ 'mode': 'pfrz',
+    \ },
+    \ {
+      \ 'pattern': ',p',
       \ 'expanded': 'components/',
       \ 'mode': 'pfrz',
     \ },
     \ {
       \ 'pattern': ',s',
       \ 'expanded': 'stores/',
+      \ 'mode': 'pfrz',
+    \ },
+    \ {
+      \ 'pattern': ',r',
+      \ 'expanded': 'services/',
+      \ 'mode': 'pfrz',
+    \ },
+    \ {
+      \ 'pattern': ',a',
+      \ 'expanded': 'actions/',
       \ 'mode': 'pfrz',
     \ },
     \ {
@@ -64,7 +79,7 @@ let g:ctrlp_abbrev = {
       \ 'mode': 'pfrz',
     \ },
     \ {
-      \ 'pattern': ',ct',
+      \ 'pattern': ',c',
       \ 'expanded': 'controllers/',
       \ 'mode': 'pfrz',
     \ }
