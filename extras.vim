@@ -185,3 +185,5 @@ set relativenumber
 
 " Show commands
 set showcmd
+
+autocmd BufNewFile,BufRead *.css.erb set filetype=eruby.css
