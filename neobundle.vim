@@ -45,6 +45,7 @@ NeoBundle 'tpope/vim-abolish' " change word case
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'Valloric/YouCompleteMe', { 'build' : { 'mac' : './install.sh' } }
+NeoBundle 'samuelsimoes/vim-jsx-utils'
 
 " Snippets
 NeoBundle 'garbas/vim-snipmate', { 'depends': ['MarcWeber/vim-addon-mw-utils', 'tomtom/tlib_vim'] }
