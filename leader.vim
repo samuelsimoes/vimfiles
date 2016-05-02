@@ -8,6 +8,8 @@ map <Leader>h "qy:execute (":Ack! \"" . getreg("q") . "\" \.")<CR>
 " Ctrl-l to hashrocket
 imap <C-l> <Space>=><Space>
 
+nnoremap <leader>ju :call TagContentOwnLine()<CR>
+
 " Buffer usage
 map <Leader>a :bprevious<CR>
 map <Leader>d :bnext<CR>

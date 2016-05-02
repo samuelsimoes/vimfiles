@@ -21,3 +21,22 @@ function! VimSnippetsFilename(...)
     return substitute(template, '$1', basename, 'g')
   endif
 endfunction
+
+function! TagContentOwnLine()
+  let l:previous_q_reg = @q
+  let l:tab = &expandtab ? repeat(" ", &shiftwidth) : "\t"
+  let l:line = getline(".")
+  let l:line_number = line(".")
+  let l:distance = len(matchstr(line, "^\[\\t|\\ \]*"))
+  if &expandtab
+    let l:distance = (distance / &shiftwidth)
+  endif
+
+  exec "normal! 0\"qdit"
+
+  let @q = "\n" . repeat(tab, distance + 1) . getreg("q") .  "\n" . repeat(tab, distance)
+
+  exec "normal! h\"qp"
+
+  let @q = previous_q_reg
+endfunction
