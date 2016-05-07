@@ -1,3 +1,11 @@
+snippet ercc
+	export default class extends React.Component {
+		render () {
+			return (
+				${0}
+			);
+		}
+	}
 snippet rcc
 	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} extends React.Component {
 		render () {
@@ -19,3 +27,9 @@ snippet rr
 		React.createElement(${1}),
 		document.getElementById("${2}")
 	);
+snippet a
+	${1:attribute}="${2:value}"
+snippet ao
+	${1:attribute}="{ ${2:object_value} }"
+snippet cN
+	className="${1:class}"
