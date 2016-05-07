@@ -4,6 +4,7 @@ let maplocalleader='-'
 
 " search the current word below the cursor on ack
 map <Leader>h "qy:execute (":Ack! \"" . getreg("q") . "\" \.")<CR>
+map <Leader>o :call ChangeSelected()<CR>
 
 " Ctrl-l to hashrocket
 imap <C-l> <Space>=><Space>
