@@ -22,6 +22,8 @@ snippet if
 	if (${1:true}) {
 		${0}
 	}
+snippet ifi
+	if (${1:true}) { return; }
 snippet ife
 	if (${1:true}) {
 		${2}
@@ -63,11 +65,38 @@ snippet cla
 snippet clae
 	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} extends ${2} {
 	}
+snippet ecla
+	export default class {
+		${1}
+	}
+snippet eclae
+	export default class extends ${1:extension} {
+		${2}
+	}
+snippet staprop
+	static ${1:prop} = {${2}};
 snippet :c
 	constructor (${1}) {
 		${2}
 	}
+snippet :ce
+	constructor (${1}) {
+		super(...arguments);
+		${2}
+	}
 snippet s
 	super();
+snippet afp
+	(${1}) => {
+		return ${2};
+	}
 snippet af
-	(${1}) => { ${2} }
+	${1} => ${2}
+snippet ip
+	import ${1:package} from "${2:package_dir}";
+snippet ipd
+	import { ${1:package} } from "${2:package_dir}";
+snippet t
+	this
+snippet tp
+	this.props
