@@ -10,6 +10,7 @@ snippet $ajax
 	$.ajax({
 		method: "${1:post}",
 		dataType: "${2:json}",
+		timeout: 3000,
 		data: {},
 		url: "${3:url}",
 		beforeSend: function (jqXHR) {${4}},
@@ -21,6 +22,7 @@ snippet $ajaxa
 	$.ajax({
 		method: "${1:post}",
 		dataType: "${2:json}",
+		timeout: 3000,
 		data: {},
 		url: "${3:url}",
 		beforeSend: (jqXHR) => ${4},
