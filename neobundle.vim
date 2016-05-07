@@ -23,7 +23,6 @@ NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'FelikZ/ctrlp-py-matcher' " speeds the ctrl-p on typing searching
 
 " Movement
-NeoBundle 'christoomey/vim-tmux-navigator'
 NeoBundle 'Lokaltog/vim-easymotion' " is like give to you the spiderman's powers
 NeoBundle 'nelstrom/vim-visual-star-search'
 

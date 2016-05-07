@@ -40,3 +40,8 @@ nnoremap * :keepjumps normal! mi*`i<CR>
 imap <C-n> <C-X><C-U>
 
 noremap <leader>c y:call system("clip", getreg(""))<CR>
+
+nmap <C-k> :wincmd k<CR>
+nmap <C-j> :wincmd j<CR>
+nmap <C-h> :wincmd h<CR>
+nmap <C-l> :wincmd l<CR>
