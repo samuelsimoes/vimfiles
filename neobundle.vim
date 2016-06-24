@@ -60,4 +60,4 @@ NeoBundle 'szw/vim-g'
 NeoBundle 'vim-scripts/BufOnly.vim'
 NeoBundle 'rbgrouleff/bclose.vim'
 
-NeoBundle 'vim-ctrlspace/vim-ctrlspace'
+NeoBundle 'samuelsimoes/vim-drawer'

@@ -9,6 +9,7 @@ vnoremap > >gv
 
 " Open NerdTree with Ctrl+n
 nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-space> :VimDrawer<CR>
 
 " Clear search hightlights when space is pressed
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
