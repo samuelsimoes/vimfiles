@@ -40,6 +40,8 @@ let g:syntastic_mode_map = { 'mode': 'active',
 " Ignoring in ctrl-p the vendor things
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|vendor|public/uploads|tmp/cache)$'
 
+let g:ctrlp_working_path_mode = "w"
+
 let g:ctrlp_abbrev = {
   \ 'gmode': 't',
   \ 'abbrevs': [
