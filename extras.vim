@@ -189,3 +189,11 @@ set relativenumber
 set showcmd
 
 autocmd BufNewFile,BufRead *.css.erb set filetype=eruby.css
+
+let g:mta_filetypes = {
+    \ 'html' : 1,
+    \ 'eruby' : 1,
+    \ 'xhtml' : 1,
+    \ 'xml' : 1,
+    \ 'javascript.jsx': 1
+    \}
