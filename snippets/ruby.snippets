@@ -14,11 +14,11 @@ snippet defi
 	def initialize(${1})
 	end
 snippet cla
-	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`}
+	class ${1:`substitute(VimSnippetsFilename(), '\\(_\\|^\\)\\(.\\)', '\\u\\2', 'g')`}
 		${0}
 	end
 snippet claf
-	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`}
+	class ${1:`substitute(VimSnippetsFilename(), '\\(_\\|^\\)\\(.\\)', '\\u\\2', 'g')`}
 		def self.${2:method_name}(*args)
 			new(*args).$2
 		end

@@ -21,6 +21,7 @@ set hidden
 let g:snipMate.scope_aliases['javascript'] = 'javascript,marionette,backbone,react,jquery'
 let g:snipMate.scope_aliases['html'] = 'html,bootstrap'
 let g:snipMate.scope_aliases['ruby'] = 'ruby,rails'
+let g:snipMate.snippet_version = 1
 
 " Syntastic Configs
 let g:syntastic_javascript_checkers = ['eslint']

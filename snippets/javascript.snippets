@@ -49,7 +49,7 @@ snippet anf
 		${0}
 	})();
 snippet objc
-	${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} = {};
+	${1:`substitute(VimSnippetsFilename(), '\\(_\\|^\\)\\(.\\)', '\\u\\2', 'g')`} = {};
 snippet switch
 	switch (${1:expression}) {
 		case "${3:case}":
@@ -60,10 +60,10 @@ snippet switch
 			${2}
 	}
 snippet cla
-	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} {
+	class ${1:`substitute(VimSnippetsFilename(), '\\(_\\|^\\)\\(.\\)', '\\u\\2', 'g')`} {
 	}
 snippet clae
-	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} extends ${2} {
+	class ${1:`substitute(VimSnippetsFilename(), '\\(_\\|^\\)\\(.\\)', '\\u\\2', 'g')`} extends ${2} {
 	}
 snippet ecla
 	export default class {

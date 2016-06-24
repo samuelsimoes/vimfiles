@@ -7,7 +7,7 @@ snippet ercc
 		}
 	}
 snippet rcc
-	class ${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} extends React.Component {
+	class ${1:`substitute(VimSnippetsFilename(), '\\(_\\|^\\)\\(.\\)', '\\u\\2', 'g')`} extends React.Component {
 		render () {
 			return (
 				${0}
@@ -15,7 +15,7 @@ snippet rcc
 		}
 	}
 snippet rc
-	${1:`substitute(VimSnippetsFilename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} = React.createClass({
+	${1:`substitute(VimSnippetsFilename(), '\\(_\\|^\\)\\(.\\)', '\\u\\2', 'g')`} = React.createClass({
 		render: function () {
 			return (
 				${0}
