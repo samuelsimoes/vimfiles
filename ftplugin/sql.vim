@@ -13,4 +13,4 @@ function! SetVimPipeDatabase()
   end
 endfunction
 
-map <LocalLeader>m :call SetVimPipeDatabase()<CR>
+map <buffer> <LocalLeader>m :call SetVimPipeDatabase()<CR>
