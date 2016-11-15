@@ -165,7 +165,8 @@ endif
 set colorcolumn=80
 
 let g:ycm_filetype_blacklist = {
-  \ 'gitcommit': 1
+  \ 'gitcommit': 1,
+  \ 'text': 1
 \ }
 let g:ycm_filetype_specific_completion_to_disable = {
   \ 'javascript': 0,
