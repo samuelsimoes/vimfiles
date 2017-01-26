@@ -26,8 +26,8 @@ let g:snipMate.snippet_version = 1
 " Syntastic Configs
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_javascript_eslint_exec = 'eslint_d'
-let g:syntastic_error_symbol='✗'
-let g:syntastic_warning_symbol='⚠'
+let g:syntastic_error_symbol='x'
+let g:syntastic_warning_symbol='!'
 let g:syntastic_mode_map = { 'mode': 'active',
                                    \ 'passive_filetypes': [
                                      \ 'html',
