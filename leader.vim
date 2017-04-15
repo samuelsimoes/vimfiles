@@ -25,13 +25,6 @@ map <Leader>t <Esc>:tabe<CR>
 " Close Window
 map <Leader>tq <Esc>:q<CR>
 
-if has("gui_running")
-  map <Leader>w <Esc>:echoerr 'JUST LET THE AUTOSAVE WORK'<CR>
-else
-  " Write, quit, open new tab and forque quit more easily
-  map <Leader>w <Esc>:w<CR>
-end
-
 map <Leader>x <Esc>:wq<CR>
 
 " Find current file on NERDTree
