@@ -193,3 +193,9 @@ let g:mta_filetypes = {
     \ 'xml' : 1,
     \ 'javascript.jsx': 1
     \}
+
+let g:user_emmet_settings = {
+\  'javascript' : {
+\    'quote_char': "'"
+\  }
+\}
