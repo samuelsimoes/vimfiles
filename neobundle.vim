@@ -57,7 +57,7 @@ NeoBundle 'mattn/gist-vim', { 'depends': 'mattn/webapi-vim' }
 NeoBundle 'szw/vim-g'
 
 " Better buffer usage
-NeoBundle 'vim-scripts/BufOnly.vim'
-NeoBundle 'rbgrouleff/bclose.vim'
+NeoBundle 'vim-scripts/BufOnly.vim' " close all buffers except the current open buffer
+NeoBundle 'rbgrouleff/bclose.vim' " avoid to close the window when you try to close the buffer
 
 NeoBundle 'samuelsimoes/vim-drawer'
