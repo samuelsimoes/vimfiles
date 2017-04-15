@@ -6,9 +6,6 @@ let maplocalleader='-'
 map <Leader>h "qy:execute (":Ack! \"" . getreg("q") . "\" \.")<CR>
 map <Leader>o :call ChangeSelected()<CR>
 
-" Ctrl-l to hashrocket
-imap <C-l> <Space>=><Space>
-
 nnoremap <leader>ju :call TagContentOwnLine()<CR>
 
 " Buffer usage
