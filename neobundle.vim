@@ -2,7 +2,7 @@
 NeoBundle 'nanotech/jellybeans.vim'
 
 " Git on Vim
-NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'tpope/vim-fugitive', { 'depends': 'tpope/vim-rhubarb.git' }
 
 " Piping from Vim buffer
 NeoBundle 'krisajenkins/vim-pipe'
