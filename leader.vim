@@ -4,6 +4,8 @@ let maplocalleader='-'
 
 " search the current word below the cursor on ack
 map <Leader>h "qy:execute (":Ack! \"" . getreg("q") . "\" \.")<CR>
+
+" Changes the selected word occurrences in the current file
 map <Leader>o :call ChangeSelected()<CR>
 
 nnoremap <leader>ju :call TagContentOwnLine()<CR>

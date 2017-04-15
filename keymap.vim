@@ -36,10 +36,12 @@ let g:ctrlp_prompt_mappings = {
   \ 'PrtHistory(1)':        ['<c-k>']
 \ }
 
+" Removing the jump after star search
 nnoremap * :keepjumps normal! mi*`i<CR>
 
 noremap <leader>c y:call system("clip", getreg(""))<CR>
 
+" Better movement between windows
 nmap <C-k> :wincmd k<CR>
 nmap <C-j> :wincmd j<CR>
 nmap <C-h> :wincmd h<CR>
