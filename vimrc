@@ -30,8 +30,8 @@ set listchars=tab:\|\ ,trail:.
 " Theme
 colorscheme jellybeans
 
-" Line Number
-set number
+" Right padding
+set foldcolumn=1
 
 " Syntax highlighting options
 syntax on
