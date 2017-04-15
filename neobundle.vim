@@ -27,6 +27,7 @@ NeoBundle 'Lokaltog/vim-easymotion' " is like give to you the spiderman's powers
 NeoBundle 'nelstrom/vim-visual-star-search'
 
 " Syntax
+NeoBundle 'isRuslan/vim-es6'
 NeoBundle 'briancollins/vim-jst'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'Valloric/MatchTagAlways'
