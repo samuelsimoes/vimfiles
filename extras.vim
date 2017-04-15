@@ -5,9 +5,6 @@ set clipboard=unnamed
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
 
-" Detect indent on open file
-autocmd BufReadPost * :DetectIndent
-
 " On save fix whitespaces
 autocmd BufWritePre * :FixWhitespace
 

@@ -37,7 +37,7 @@ NeoBundle 'scrooloose/syntastic'
 " Code editing
 NeoBundle 'Raimondi/delimitMate' " autocomplete pairs
 NeoBundle 'kana/vim-textobj-user'
-NeoBundle 'DetectIndent'
+NeoBundle 'tpope/vim-sleuth' " smart auto shiftwidth and expandtab
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'vim-scripts/JavaScript-Indent'
 NeoBundle 'tpope/vim-surround'
