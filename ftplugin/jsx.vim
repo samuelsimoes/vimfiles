@@ -1,4 +1,4 @@
-let emmet_html5 = 0
+let b:emmet_html5 = 0
 
 nnoremap <buffer> <leader>ja :call JSXEncloseReturn()<CR>
 nnoremap <buffer> <leader>ji :call JSXEachAttributeInLine()<CR>
