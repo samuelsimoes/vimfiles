@@ -1,14 +1,14 @@
-snippet rai
-	raise ${1}.inspect
-snippet print
-	page.driver.save_screenshot('/tmp/screen.png', full: true)
+snippet ifi
+	return if ${0}
 snippet def
 	def ${1}
 	end
-snippet r
-	return ${1}
 snippet defs
 	def self.${1}
+	end
+snippet defsm
+	def self.${1:method}(*args)
+		new(*args).$1
 	end
 snippet defi
 	def initialize(${1})
@@ -26,19 +26,6 @@ snippet claf
 		def initialize(${3})
 		end
 	end
-snippet test
-	require 'minitest/autorun'
-	class Test < MiniTest::Unit::TestCase
-	  def test_the_truth
-			assert_equal(true, true)
-	  end
-	end
-snippet begin
-	begin
-		${1}
-	rescue ${2:Exception => e}
-		${3}
-	end
 snippet case
 	case ${1:expression}
 	when ${2:condition1}
@@ -46,3 +33,5 @@ snippet case
 	else
 		${4:return2}
 	end
+snippet clae
+	class ${1} < StandardError; end

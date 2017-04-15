@@ -1,32 +1,24 @@
-snippet $on
-	$("${1}").on("${2}", function (evt) {
-		${3}
-	});
-snippet $h
-	$("${1}").hide();
-snippet $s
-	$("${1}").show();
 snippet $ajax
-	$.ajax({
-		method: "${1:post}",
-		dataType: "${2:json}",
+	\$.ajax({
+		method: '${1:post}',
+		dataType: '${2:json}',
 		timeout: 3000,
 		data: {},
-		url: "${3:url}",
+		url: '${3:url}',
 		beforeSend: function (jqXHR) {${4}},
 		success: function (data, textStatus, jqXHR) {${5}},
 		error: function (jqXHR, textStatus) {${6}},
 		complete: function (jqXHR, textStatus) {${7}}
-	});
+	})
 snippet $ajaxa
-	$.ajax({
-		method: "${1:post}",
-		dataType: "${2:json}",
+	\$.ajax({
+		method: '${1:post}',
+		dataType: '${2:json}',
 		timeout: 3000,
 		data: {},
-		url: "${3:url}",
+		url: '${3:url}',
 		beforeSend: (jqXHR) => ${4},
 		success: (data, textStatus, jqXHR) => ${5},
 		error: (jqXHR, textStatus) => ${6},
 		complete: (jqXHR, textStatus) => ${7}
-	});
+	})
