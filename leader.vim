@@ -12,17 +12,10 @@ nnoremap <leader>ju :call TagContentOwnLine()<CR>
 map <Leader>a :bprevious<CR>
 map <Leader>d :bnext<CR>
 map <Leader>b :enew<CR>
-map <Leader>q :Bclose<CR>
+map <Leader>bq :Bclose<CR>
 map <Leader>s :b #<CR>
 map <Leader>fq <Esc>:Bclose!<CR>
-
-" New tab
-map <Leader>t <Esc>:tabe<CR>
-
-" Close Window
-map <Leader>tq <Esc>:q<CR>
-
-map <Leader>x <Esc>:wq<CR>
+map <Leader>wq <Esc>:q<CR>
 
 " Find current file on NERDTree
 nnoremap <leader>nf :NERDTreeFind<CR>
