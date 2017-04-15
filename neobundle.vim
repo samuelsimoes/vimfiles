@@ -7,7 +7,7 @@ NeoBundle 'tpope/vim-fugitive', { 'depends': 'tpope/vim-rhubarb.git' }
 " Piping from Vim buffer
 NeoBundle 'krisajenkins/vim-pipe'
 
-" Rails and Buby
+" Rails and Ruby
 NeoBundle 'tpope/vim-rails.git'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'rhysd/vim-textobj-ruby'
