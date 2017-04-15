@@ -22,3 +22,5 @@ function! JavascriptFunctionSelectA()
   let head_pos = getpos('.')
   return ['V', head_pos, tail_pos]
 endfunction
+
+let b:emmet_html5 = 0
