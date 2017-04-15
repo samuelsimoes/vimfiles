@@ -28,7 +28,6 @@ NeoBundle 'nelstrom/vim-visual-star-search'
 
 " Syntax
 NeoBundle 'isRuslan/vim-es6'
-NeoBundle 'briancollins/vim-jst'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'Valloric/MatchTagAlways'
 
