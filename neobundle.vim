@@ -13,9 +13,6 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'rhysd/vim-textobj-ruby'
 NeoBundle 'tpope/vim-endwise'
 
-" Elixir
-NeoBundle 'elixir-lang/vim-elixir'
-
 " File searching
 NeoBundle 'mileszs/ack.vim'
 NeoBundle 'scrooloose/nerdtree'
@@ -30,6 +27,7 @@ NeoBundle 'nelstrom/vim-visual-star-search'
 NeoBundle 'isRuslan/vim-es6'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'Valloric/MatchTagAlways'
+NeoBundle 'elixir-lang/vim-elixir'
 
 " Syntax Checking
 NeoBundle 'scrooloose/syntastic'
