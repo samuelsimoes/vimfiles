@@ -16,7 +16,7 @@ map <Leader>d :bnext<CR>
 map <Leader>b :enew<CR>
 map <Leader>bq :Bclose<CR>
 map <Leader>s :b #<CR>
-map <Leader>fq <Esc>:Bclose!<CR>
+map <Leader>bfq <Esc>:Bclose!<CR>
 map <Leader>wq <Esc>:q<CR>
 
 " Find current file on NERDTree
