@@ -7,22 +7,17 @@ filetype indent plugin on
 let g:snipMate = {}
 let g:snipMate.scope_aliases = {}
 
-"NeoBundlnipMate = {} Scripts-----------------------------
-if has('vim_starting')
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
+let g:vimfiles_folder = expand('<sfile>:p:h')
+
+" Setup the Plug plugin manager
+if empty(glob(vimfiles_folder . '/autoload/plug.vim'))
+  execute 'silent !curl -fLo ' . vimfiles_folder . '/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  execute 'autocmd VimEnter * PlugInstall --sync | source ' . vimfiles_folder . '/vimrc'
 endif
 
-call neobundle#begin(expand('~/.vim/bundle'))
-
-" Let NeoBundle manage NeoBundle
-NeoBundleFetch 'Shougo/neobundle.vim'
-
-" Packages
-source ~/.vim/neobundle.vim
-
-call neobundle#end()
-NeoBundleCheck
-"End NeoBundle Scripts-------------------------
+call plug#begin(vimfiles_folder . '/plugged')
+execute 'source ' . vimfiles_folder . '/plug.vim'
+call plug#end()
 
 set list
 set listchars=tab:\|\ ,trail:.
@@ -60,5 +55,3 @@ source ~/.vim/leader.vim
 source ~/.vim/keymap.vim
 source ~/.vim/extras.vim
 source ~/.vim/gui.vim
-
-runtime bundle/matchit/plugin/matchit.vim

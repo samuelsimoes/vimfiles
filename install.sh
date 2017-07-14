@@ -16,8 +16,4 @@ git clone https://github.com/samuelsimoes/vimfiles ~/.vim
 
 cd ~/.vim
 
-git submodule init bundle/neobundle.vim
-
-git submodule update
-
-vim +NeoBundleInstall +qall
+vim

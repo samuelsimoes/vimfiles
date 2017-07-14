@@ -1,2 +1,2 @@
-/bundle/*
-!/bundle/neobundle.vim
+/autoload/plug.vim
+/plugged/*
