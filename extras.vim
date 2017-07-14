@@ -40,52 +40,6 @@ let g:ctrlp_custom_ignore = '\v[\/](node_modules|vendor|public/uploads|tmp/cache
 
 let g:ctrlp_working_path_mode = "w"
 
-let g:ctrlp_abbrev = {
-  \ 'gmode': 't',
-  \ 'abbrevs': [
-    \ {
-      \ 'pattern': ',z',
-      \ 'expanded': 'serializers/',
-      \ 'mode': 'pfrz',
-    \ },
-    \ {
-      \ 'pattern': ',p',
-      \ 'expanded': 'components/',
-      \ 'mode': 'pfrz',
-    \ },
-    \ {
-      \ 'pattern': ',s',
-      \ 'expanded': 'stores/',
-      \ 'mode': 'pfrz',
-    \ },
-    \ {
-      \ 'pattern': ',r',
-      \ 'expanded': 'services/',
-      \ 'mode': 'pfrz',
-    \ },
-    \ {
-      \ 'pattern': ',a',
-      \ 'expanded': 'actions/',
-      \ 'mode': 'pfrz',
-    \ },
-    \ {
-      \ 'pattern': ',m',
-      \ 'expanded': 'models/',
-      \ 'mode': 'pfrz',
-    \ },
-    \ {
-      \ 'pattern': ',v',
-      \ 'expanded': 'views/',
-      \ 'mode': 'pfrz',
-    \ },
-    \ {
-      \ 'pattern': ',c',
-      \ 'expanded': 'controllers/',
-      \ 'mode': 'pfrz',
-    \ }
-    \ ]
-  \ }
-
 " ag
 " The Silver Searcher
 if executable('ag')
