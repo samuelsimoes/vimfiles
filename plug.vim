@@ -15,7 +15,7 @@ Plug 'tpope/vim-endwise'
 
 " File searching
 Plug 'mileszs/ack.vim'
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'FelikZ/ctrlp-py-matcher' " speeds the ctrl-p on typing searching
 
@@ -25,9 +25,9 @@ Plug 'nelstrom/vim-visual-star-search'
 
 " Syntax
 Plug 'isRuslan/vim-es6'
-Plug 'mustache/vim-mustache-handlebars'
+Plug 'mustache/vim-mustache-handlebars', { 'for': 'handlebars' }
 Plug 'Valloric/MatchTagAlways'
-Plug 'elixir-lang/vim-elixir'
+Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
 
 " Syntax Checking
 Plug 'scrooloose/syntastic'
