@@ -2,9 +2,6 @@
 let mapleader=","
 let maplocalleader='-'
 
-" search the current word below the cursor on ack
-map <Leader>h "qy:execute (":Ack! \"" . getreg("q") . "\" \.")<CR>
-
 " Changes the selected word occurrences in the current file
 map <Leader>o :call ChangeSelected()<CR>
 
@@ -28,9 +25,6 @@ nnoremap <leader>f :!echo -n % \| pbcopy<cr>
 nnoremap <Leader>mr :CtrlPMRU<CR>
 nnoremap <Leader>mp :CtrlPBuffer<CR>
 nnoremap <Leader>mh :CtrlP <C-R>=expand('%:p:h')<CR><CR>
-
-map <Leader>8 :call youcompleteme#EnableCursorMovedAutocommands()<CR>
-map <Leader>9 :call youcompleteme#DisableCursorMovedAutocommands()<CR>
 
 " Rename file
 map <Leader>r :call Rename()<CR>
