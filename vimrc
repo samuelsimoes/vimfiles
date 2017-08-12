@@ -132,36 +132,6 @@ set statusline+=%10((%l/%L)%)\            " current line / total lines
 " Eliminating delays on exit the insert mode
 set timeoutlen=1000 ttimeoutlen=0
 
-let g:rails_projections = {
-      \ "spec/factories/*.rb": {
-      \   "command": "factory",
-      \  "affinity": "model"
-      \ },
-      \ "spec/support/turnip/*_steps.rb": {
-      \   "command": "steps",
-      \  "affinity": "model"
-      \ },
-      \ "app/enumerations/*.rb": {
-      \   "command": "enum",
-      \   "template": "class %S < EnumerateIt::Base\n  associate_values :\nend"
-      \ },
-      \ "app/services/*.rb": {
-      \   "command": "service",
-      \   "template": "class %S\nend"
-      \ },
-      \ "app/serializers/*_serializer.rb": {
-      \   "command": "serializer",
-      \   "template": "class %SSerializer < ActiveModel::Serializer\nend",
-      \  "affinity": "model"
-      \ },
-      \ "app/workers/*.rb": {
-      \   "command": "worker"
-      \ },
-      \ "app/policies/*_policy.rb": {
-      \   "command": "policy",
-      \   "template": "class %SPolicy\nend"
-      \ }}
-
 " For Gist plugin send the URL of generated Gist to clipboard
 if system('uname')=~'Darwin'
   let g:gist_clip_command = 'pbcopy'
