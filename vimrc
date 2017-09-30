@@ -49,11 +49,11 @@ set smarttab
 set autoindent
 set smartindent
 
-source ~/.vim/abbreviations.vim
-source ~/.vim/functions.vim
-source ~/.vim/leader.vim
-source ~/.vim/keymap.vim
-source ~/.vim/gui.vim
+execute 'source ' . vimfiles_folder . '/abbreviations.vim'
+execute 'source ' . vimfiles_folder . '/functions.vim'
+execute 'source ' . vimfiles_folder . '/leader.vim'
+execute 'source ' . vimfiles_folder . '/keymap.vim'
+execute 'source ' . vimfiles_folder . '/gui.vim'
 
 " Sharing system clipboard
 set clipboard=unnamed
