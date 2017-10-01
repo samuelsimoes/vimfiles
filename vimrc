@@ -165,6 +165,9 @@ set hidden
 " Show commands
 set showcmd
 
+" Relative Numbers
+set relativenumber
+
 autocmd BufNewFile,BufRead *.css.erb set filetype=eruby.css
 
 let g:mta_filetypes = {
