@@ -2,9 +2,9 @@ call textobj#user#plugin('javascriptfunctions', {
 \   '-': {
 \     'select-a-function': 'JavascriptFunctionSelectA',
 \     'select-i-function': 'JavascriptFunctionSelectI',
-\     'select-i': 'im',
-\     'select-a': 'am'
-\   },
+\     'select-i': '<buffer>im',
+\     'select-a': '<buffer>am'
+\   }
 \ })
 
 function! JavascriptFunctionSelectI()
