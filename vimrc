@@ -22,8 +22,10 @@ call plug#end()
 set list
 set listchars=tab:\|\ ,trail:.
 
-" Theme
-colorscheme jellybeans
+if !empty(glob(vimfiles_folder . '/plugged/jellybeans.vim'))
+  " Theme
+  colorscheme jellybeans
+end
 
 " Right padding
 set foldcolumn=1
