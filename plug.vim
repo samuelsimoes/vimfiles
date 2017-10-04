@@ -46,7 +46,7 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
 Plug 'samuelsimoes/vim-jsx-utils'
 
 " Snippets
-Plug 'MarcWeber/vim-addon-mw-utils' | Plug 'tomtom/tlib_vim' | Plug 'garbas/vim-snipmate'
+Plug 'MarcWeber/vim-addon-mw-utils' | Plug 'tomtom/tlib_vim' | Plug 'garbas/vim-snipmate', { 'commit': '0c20e41' }
 
 " Make gists from Vim
 Plug 'mattn/webapi-vim' | Plug 'mattn/gist-vim'
