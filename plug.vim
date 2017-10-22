@@ -42,7 +42,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-abolish' " change word case
 Plug 'tomtom/tcomment_vim'
 Plug 'mattn/emmet-vim'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
+Plug 'Shougo/vimproc.vim', { 'do' : 'make' } | Plug 'Shougo/neocomplete.vim'
 Plug 'samuelsimoes/vim-jsx-utils'
 
 " Snippets

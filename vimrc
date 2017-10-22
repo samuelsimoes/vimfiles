@@ -189,3 +189,9 @@ let g:user_emmet_settings = {
 \    'extends' : 'jsx'
 \  }
 \}
+
+let g:neocomplete#enable_at_startup = 1
+let g:neocomplete#file#enable_buffer_path = 1
+let g:neocomplete#max_list = 5
+let g:neocomplete#enable_ignore_case = 1
+let g:neocomplete#auto_complete_delay = 200
