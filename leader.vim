@@ -2,6 +2,8 @@
 let mapleader=","
 let maplocalleader='-'
 
+nnoremap <localleader>r :call PipeSameLine()<CR>
+
 " Changes the selected word occurrences in the current file
 map <Leader>o :call ChangeSelected()<CR>
 

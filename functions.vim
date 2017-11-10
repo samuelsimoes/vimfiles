@@ -1,3 +1,13 @@
+" vim-pipe and jump back to where i was
+function! PipeSameLine()
+    let line = line('.')
+    let column = col('.')
+
+    %call VimPipe()
+
+    call cursor(line, column)
+endfunc
+
 " Rename current file
 function! Rename()
     let old_name = expand('%')
