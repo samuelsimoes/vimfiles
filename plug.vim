@@ -57,5 +57,3 @@ Plug 'szw/vim-g'
 " Better buffer usage
 Plug 'vim-scripts/BufOnly.vim' " close all buffers except the current open buffer
 Plug 'rbgrouleff/bclose.vim' " avoid to close the window when you try to close the buffer
-
-Plug 'samuelsimoes/vim-drawer'
