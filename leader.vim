@@ -10,12 +10,10 @@ map <Leader>o :call ChangeSelected()<CR>
 nnoremap <leader>ju :call TagContentOwnLine()<CR>
 
 " Buffer usage
-map <Leader>a :bprevious<CR>
-map <Leader>d :bnext<CR>
 map <Leader>b :enew<CR>
-map <Leader>bq :Bclose<CR>
+map <Leader>bq :bd %<CR>
 map <Leader>s :b #<CR>
-map <Leader>bfq <Esc>:Bclose!<CR>
+map <Leader>bfq <Esc>:bd! %<CR>
 map <Leader>wq <Esc>:q<CR>
 
 " Find current file on NERDTree
