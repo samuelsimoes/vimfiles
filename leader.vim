@@ -19,6 +19,8 @@ map <Leader>wq <Esc>:q<CR>
 " Find current file on NERDTree
 nnoremap <leader>nf :NERDTreeFind<CR>
 
+nnoremap <leader>a :Ack!<Space>
+
 " Copy filepath
 nnoremap <leader>f :!echo -n % \| pbcopy<cr>
 
