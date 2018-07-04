@@ -28,7 +28,6 @@ Plug 'isRuslan/vim-es6'
 Plug 'mustache/vim-mustache-handlebars', { 'for': 'handlebars' }
 Plug 'Valloric/MatchTagAlways'
 Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
-Plug 'tomlion/vim-solidity'
 
 " Syntax Checking
 Plug 'scrooloose/syntastic'
