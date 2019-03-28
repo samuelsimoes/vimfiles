@@ -99,6 +99,11 @@ let g:ctrlp_custom_ignore = '\v[\/](node_modules|vendor|public/uploads|tmp/cache
 
 let g:ctrlp_working_path_mode = "w"
 
+" In buffer mode show the relative path's file instead of splitting the path and file's
+" name
+let g:ctrlp_bufname_mod = ':~:.'
+let g:ctrlp_bufpath_mod = ''
+
 " ag
 " The Silver Searcher
 if executable('ag')
