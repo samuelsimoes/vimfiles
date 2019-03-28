@@ -201,3 +201,5 @@ let g:deoplete#max_list = 5
 let g:deoplete#enable_ignore_case = 1
 let g:deoplete#auto_complete_delay = 100
 let g:deoplete#enable_refresh_always = 1
+
+let g:gist_post_private = 1
